@@ -1,0 +1,2 @@
+C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt

@@ -1,0 +1,184 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player" >
+5
+6    <uses-sdk android:minSdkVersion="29" />
+7
+8    <uses-permission android:name="android.permission.INTERNET" />
+8-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-65
+8-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:20-62
+9    <uses-permission android:name="android.permission.CAMERA" />
+9-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:3-63
+9-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:20-60
+10
+11    <uses-feature
+11-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:3-90
+12        android:name="android.hardware.vulkan.version"
+12-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:17-63
+13        android:required="true" />
+13-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:64-87
+14    <uses-feature
+14-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:3-83
+15        android:name="android.hardware.camera"
+15-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-55
+16        android:required="false" />
+16-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:56-80
+17    <uses-feature
+17-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:3-93
+18        android:name="android.hardware.camera.autofocus"
+18-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:17-65
+19        android:required="false" />
+19-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:66-90
+20    <uses-feature
+20-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:3-89
+21        android:name="android.hardware.camera.front"
+21-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:17-61
+22        android:required="false" />
+22-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:62-86
+23    <uses-feature
+23-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:3-88
+24        android:name="android.hardware.touchscreen"
+24-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:17-60
+25        android:required="false" />
+25-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:61-85
+26    <uses-feature
+26-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:3-99
+27        android:name="android.hardware.touchscreen.multitouch"
+27-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:17-71
+28        android:required="false" />
+28-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:72-96
+29    <uses-feature
+29-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:3-108
+30        android:name="android.hardware.touchscreen.multitouch.distinct"
+30-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:17-80
+31        android:required="false" />
+31-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:81-105
+32
+33    <application
+33-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:3-33:17
+34        android:enableOnBackInvokedCallback="false"
+34-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:16-59
+35        android:extractNativeLibs="true" >
+35-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:60-92
+36        <meta-data
+36-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:5-69
+37            android:name="unity.splash-mode"
+37-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-48
+38            android:value="0" />
+38-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:49-66
+39        <meta-data
+39-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-74
+40            android:name="unity.splash-enable"
+40-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-50
+41            android:value="True" />
+41-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:51-71
+42        <meta-data
+42-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-78
+43            android:name="unity.launch-fullscreen"
+43-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-54
+44            android:value="True" />
+44-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:55-75
+45        <meta-data
+45-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-84
+46            android:name="unity.render-outside-safearea"
+46-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-60
+47            android:value="True" />
+47-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:61-81
+48        <meta-data
+48-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-81
+49            android:name="notch.config"
+49-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:16-43
+50            android:value="portrait|landscape" />
+50-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:44-78
+51        <meta-data
+51-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:5-84
+52            android:name="unity.auto-report-fully-drawn"
+52-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:16-60
+53            android:value="true" />
+53-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:61-81
+54        <meta-data
+54-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:5-80
+55            android:name="unity.auto-set-game-state"
+55-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:16-56
+56            android:value="true" />
+56-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:57-77
+57        <meta-data
+57-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:5-78
+58            android:name="unity.strip-engine-code"
+58-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:16-54
+59            android:value="true" />
+59-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:55-75
+60
+61        <activity
+61-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:5-31:16
+62            android:name="com.unity3d.player.UnityPlayerGameActivity"
+62-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:312-369
+63            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+63-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:15-196
+64            android:enabled="true"
+64-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:197-219
+65            android:exported="true"
+65-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:220-243
+66            android:hardwareAccelerated="false"
+66-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:244-279
+67            android:launchMode="singleTask"
+67-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:280-311
+68            android:resizeableActivity="true"
+68-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:370-403
+69            android:screenOrientation="fullUser"
+69-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:404-440
+70            android:theme="@style/BaseUnityGameActivityTheme" >
+70-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:441-490
+71            <intent-filter>
+71-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:7-25:23
+72                <category android:name="android.intent.category.LAUNCHER" />
+72-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:9-69
+72-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:19-66
+73
+74                <action android:name="android.intent.action.MAIN" />
+74-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:9-61
+74-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:17-58
+75            </intent-filter>
+76
+77            <meta-data
+77-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:7-82
+78                android:name="unityplayer.UnityActivity"
+78-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:18-58
+79                android:value="true" />
+79-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:59-79
+80            <meta-data
+80-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:7-77
+81                android:name="android.app.lib_name"
+81-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:18-53
+82                android:value="game" />
+82-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:54-74
+83            <meta-data
+83-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:7-130
+84                android:name="WindowManagerPreference:FreeformWindowSize"
+84-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:18-75
+85                android:value="@string/FreeformWindowSize_maximize" />
+85-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:76-127
+86            <meta-data
+86-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:7-145
+87                android:name="WindowManagerPreference:FreeformWindowOrientation"
+87-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:18-82
+88                android:value="@string/FreeformWindowOrientation_landscape" />
+88-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:83-142
+89            <meta-data
+89-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:7-70
+90                android:name="notch_support"
+90-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:18-46
+91                android:value="true" />
+91-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:47-67
+92        </activity>
+93
+94        <meta-data
+94-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:5-77
+95            android:name="com.google.ar.core"
+95-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:16-49
+96            android:value="optional" />
+96-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:50-74
+97    </application>
+98
+99</manifest>

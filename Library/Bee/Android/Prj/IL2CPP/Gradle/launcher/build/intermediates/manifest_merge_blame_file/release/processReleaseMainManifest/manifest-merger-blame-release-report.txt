@@ -1,0 +1,339 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.vuforia.engine.VuforiaEngine"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1104"
+6    android:versionName="11.0.4" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="29"
+10        android:targetSdkVersion="35" />
+11
+12    <supports-screens
+12-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:3-163
+13        android:anyDensity="true"
+13-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:135-160
+14        android:largeScreens="true"
+14-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:78-105
+15        android:normalScreens="true"
+15-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:49-77
+16        android:smallScreens="true"
+16-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:21-48
+17        android:xlargeScreens="true" />
+17-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:106-134
+18
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:8:5-67
+19-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:8:22-64
+20    <uses-permission android:name="android.permission.CAMERA" />
+20-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:9:5-65
+20-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:9:22-62
+21
+22    <uses-feature
+22-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:11:5-13:35
+23        android:name="android.hardware.vulkan.version"
+23-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:12:9-55
+24        android:required="true" />
+24-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:13:9-32
+25    <uses-feature
+25-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:14:5-16:36
+26        android:name="android.hardware.camera"
+26-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:15:9-47
+27        android:required="true" />
+27-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:16:9-33
+28    <uses-feature
+28-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:17:5-19:36
+29        android:name="android.hardware.camera.autofocus"
+29-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:18:9-57
+30        android:required="false" />
+30-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:19:9-33
+31    <uses-feature
+31-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:20:5-22:36
+32        android:name="android.hardware.camera.front"
+32-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:21:9-53
+33        android:required="false" />
+33-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:22:9-33
+34    <uses-feature
+34-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:23:5-25:36
+35        android:name="android.hardware.touchscreen"
+35-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:24:9-52
+36        android:required="false" />
+36-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:25:9-33
+37    <uses-feature
+37-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:26:5-28:36
+38        android:name="android.hardware.touchscreen.multitouch"
+38-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:27:9-63
+39        android:required="false" />
+39-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:28:9-33
+40    <uses-feature
+40-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:29:5-31:36
+41        android:name="android.hardware.touchscreen.multitouch.distinct"
+41-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:30:9-72
+42        android:required="false" />
+42-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:31:9-33
+43
+44    <queries>
+44-->[com.google.ar:core:1.36.0] C:\Users\yazga\.gradle\caches\transforms-3\b72778c05344b1df9fad2e142485c639\transformed\jetified-core-1.36.0\AndroidManifest.xml:20:5-22:15
+45        <package android:name="com.google.ar.core" />
+45-->[com.google.ar:core:1.36.0] C:\Users\yazga\.gradle\caches\transforms-3\b72778c05344b1df9fad2e142485c639\transformed\jetified-core-1.36.0\AndroidManifest.xml:21:9-54
+45-->[com.google.ar:core:1.36.0] C:\Users\yazga\.gradle\caches\transforms-3\b72778c05344b1df9fad2e142485c639\transformed\jetified-core-1.36.0\AndroidManifest.xml:21:18-51
+46    </queries>
+47
+48    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+48-->[:UnityAds:] C:\Users\yazga\.gradle\caches\transforms-3\0c515e3bfcc72b10b3792197ea4c983b\transformed\jetified-UnityAds\AndroidManifest.xml:9:5-79
+48-->[:UnityAds:] C:\Users\yazga\.gradle\caches\transforms-3\0c515e3bfcc72b10b3792197ea4c983b\transformed\jetified-UnityAds\AndroidManifest.xml:9:22-76
+49    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+49-->[:UnityAds:] C:\Users\yazga\.gradle\caches\transforms-3\0c515e3bfcc72b10b3792197ea4c983b\transformed\jetified-UnityAds\AndroidManifest.xml:11:5-79
+49-->[:UnityAds:] C:\Users\yazga\.gradle\caches\transforms-3\0c515e3bfcc72b10b3792197ea4c983b\transformed\jetified-UnityAds\AndroidManifest.xml:11:22-76
+50    <!--
+51        Required by Vuforia: Add this permission to access IMU sensors at high rate
+52        for device tracker functionality on Android 12+.
+53    -->
+54    <uses-permission android:name="android.permission.HIGH_SAMPLING_RATE_SENSORS" />
+54-->[:VuforiaEngine:] C:\Users\yazga\.gradle\caches\transforms-3\3d48355f22001fd2f977baacd81cb148\transformed\jetified-VuforiaEngine\AndroidManifest.xml:16:5-85
+54-->[:VuforiaEngine:] C:\Users\yazga\.gradle\caches\transforms-3\3d48355f22001fd2f977baacd81cb148\transformed\jetified-VuforiaEngine\AndroidManifest.xml:16:22-82
+55
+56    <permission
+56-->[androidx.core:core:1.9.0] C:\Users\yazga\.gradle\caches\transforms-3\c919e84cf21a5073ea88f45ff1a29b85\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+57        android:name="com.vuforia.engine.VuforiaEngine.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+57-->[androidx.core:core:1.9.0] C:\Users\yazga\.gradle\caches\transforms-3\c919e84cf21a5073ea88f45ff1a29b85\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+58        android:protectionLevel="signature" />
+58-->[androidx.core:core:1.9.0] C:\Users\yazga\.gradle\caches\transforms-3\c919e84cf21a5073ea88f45ff1a29b85\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+59
+60    <uses-permission android:name="com.vuforia.engine.VuforiaEngine.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+60-->[androidx.core:core:1.9.0] C:\Users\yazga\.gradle\caches\transforms-3\c919e84cf21a5073ea88f45ff1a29b85\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+60-->[androidx.core:core:1.9.0] C:\Users\yazga\.gradle\caches\transforms-3\c919e84cf21a5073ea88f45ff1a29b85\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+61
+62    <application
+62-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:3-126
+63        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+63-->[androidx.core:core:1.9.0] C:\Users\yazga\.gradle\caches\transforms-3\c919e84cf21a5073ea88f45ff1a29b85\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+64        android:enableOnBackInvokedCallback="false"
+64-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:34:9-52
+65        android:extractNativeLibs="true"
+66        android:icon="@mipmap/app_icon"
+66-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:16-47
+67        android:label="@string/app_name"
+67-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:48-80
+68        android:roundIcon="@mipmap/app_icon_round" >
+68-->C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:81-123
+69        <meta-data
+69-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:36:9-38:33
+70            android:name="unity.splash-mode"
+70-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:37:13-45
+71            android:value="0" />
+71-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:38:13-30
+72        <meta-data
+72-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:39:9-41:36
+73            android:name="unity.splash-enable"
+73-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:40:13-47
+74            android:value="True" />
+74-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:41:13-33
+75        <meta-data
+75-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:42:9-44:36
+76            android:name="unity.launch-fullscreen"
+76-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:43:13-51
+77            android:value="True" />
+77-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:44:13-33
+78        <meta-data
+78-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:45:9-47:36
+79            android:name="unity.render-outside-safearea"
+79-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:46:13-57
+80            android:value="True" />
+80-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:47:13-33
+81        <meta-data
+81-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:48:9-50:50
+82            android:name="notch.config"
+82-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:49:13-40
+83            android:value="portrait|landscape" />
+83-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:50:13-47
+84        <meta-data
+84-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:51:9-53:36
+85            android:name="unity.auto-report-fully-drawn"
+85-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:52:13-57
+86            android:value="true" />
+86-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:53:13-33
+87        <meta-data
+87-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:54:9-56:36
+88            android:name="unity.auto-set-game-state"
+88-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:55:13-53
+89            android:value="true" />
+89-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:56:13-33
+90        <meta-data
+90-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:57:9-59:36
+91            android:name="unity.strip-engine-code"
+91-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:58:13-51
+92            android:value="true" />
+92-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:59:13-33
+93
+94        <activity
+94-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:61:9-92:20
+95            android:name="com.unity3d.player.UnityPlayerGameActivity"
+95-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:62:13-70
+96            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+96-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:63:13-194
+97            android:enabled="true"
+97-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:64:13-35
+98            android:exported="true"
+98-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:65:13-36
+99            android:hardwareAccelerated="false"
+99-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:66:13-48
+100            android:launchMode="singleTask"
+100-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:67:13-44
+101            android:resizeableActivity="true"
+101-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:68:13-46
+102            android:screenOrientation="fullUser"
+102-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:69:13-49
+103            android:theme="@style/BaseUnityGameActivityTheme" >
+103-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:70:13-62
+104            <intent-filter>
+104-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:71:13-75:29
+105                <category android:name="android.intent.category.LAUNCHER" />
+105-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:72:17-77
+105-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:72:27-74
+106
+107                <action android:name="android.intent.action.MAIN" />
+107-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:74:17-69
+107-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:74:25-66
+108            </intent-filter>
+109
+110            <meta-data
+110-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:77:13-79:40
+111                android:name="unityplayer.UnityActivity"
+111-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:78:17-57
+112                android:value="true" />
+112-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:79:17-37
+113            <meta-data
+113-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:80:13-82:40
+114                android:name="android.app.lib_name"
+114-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:81:17-52
+115                android:value="game" />
+115-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:82:17-37
+116            <meta-data
+116-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:83:13-85:71
+117                android:name="WindowManagerPreference:FreeformWindowSize"
+117-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:84:17-74
+118                android:value="@string/FreeformWindowSize_maximize" />
+118-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:85:17-68
+119            <meta-data
+119-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:86:13-88:79
+120                android:name="WindowManagerPreference:FreeformWindowOrientation"
+120-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:87:17-81
+121                android:value="@string/FreeformWindowOrientation_landscape" />
+121-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:88:17-76
+122            <meta-data
+122-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:89:13-91:40
+123                android:name="notch_support"
+123-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:90:17-45
+124                android:value="true" />
+124-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:91:17-37
+125        </activity>
+126
+127        <meta-data
+127-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:94:9-96:40
+128            android:name="com.google.ar.core"
+128-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:95:13-46
+129            android:value="optional" /> <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
+129-->[:unityLibrary] C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:96:13-37
+130        <meta-data
+130-->[com.google.ar:core:1.36.0] C:\Users\yazga\.gradle\caches\transforms-3\b72778c05344b1df9fad2e142485c639\transformed\jetified-core-1.36.0\AndroidManifest.xml:27:9-29:41
+131            android:name="com.google.ar.core.min_apk_version"
+131-->[com.google.ar:core:1.36.0] C:\Users\yazga\.gradle\caches\transforms-3\b72778c05344b1df9fad2e142485c639\transformed\jetified-core-1.36.0\AndroidManifest.xml:28:13-62
+132            android:value="223110000" /> <!-- This activity is critical for installing ARCore when it is not already present. -->
+132-->[com.google.ar:core:1.36.0] C:\Users\yazga\.gradle\caches\transforms-3\b72778c05344b1df9fad2e142485c639\transformed\jetified-core-1.36.0\AndroidManifest.xml:29:13-38
+133        <activity
+133-->[com.google.ar:core:1.36.0] C:\Users\yazga\.gradle\caches\transforms-3\b72778c05344b1df9fad2e142485c639\transformed\jetified-core-1.36.0\AndroidManifest.xml:31:9-37:80
+134            android:name="com.google.ar.core.InstallActivity"
+134-->[com.google.ar:core:1.36.0] C:\Users\yazga\.gradle\caches\transforms-3\b72778c05344b1df9fad2e142485c639\transformed\jetified-core-1.36.0\AndroidManifest.xml:32:13-62
+135            android:configChanges="keyboardHidden|orientation|screenSize"
+135-->[com.google.ar:core:1.36.0] C:\Users\yazga\.gradle\caches\transforms-3\b72778c05344b1df9fad2e142485c639\transformed\jetified-core-1.36.0\AndroidManifest.xml:33:13-74
+136            android:excludeFromRecents="true"
+136-->[com.google.ar:core:1.36.0] C:\Users\yazga\.gradle\caches\transforms-3\b72778c05344b1df9fad2e142485c639\transformed\jetified-core-1.36.0\AndroidManifest.xml:34:13-46
+137            android:exported="false"
+137-->[com.google.ar:core:1.36.0] C:\Users\yazga\.gradle\caches\transforms-3\b72778c05344b1df9fad2e142485c639\transformed\jetified-core-1.36.0\AndroidManifest.xml:35:13-37
+138            android:launchMode="singleTop"
+138-->[com.google.ar:core:1.36.0] C:\Users\yazga\.gradle\caches\transforms-3\b72778c05344b1df9fad2e142485c639\transformed\jetified-core-1.36.0\AndroidManifest.xml:36:13-43
+139            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
+139-->[com.google.ar:core:1.36.0] C:\Users\yazga\.gradle\caches\transforms-3\b72778c05344b1df9fad2e142485c639\transformed\jetified-core-1.36.0\AndroidManifest.xml:37:13-77
+140        <activity
+140-->[:UnityAds:] C:\Users\yazga\.gradle\caches\transforms-3\0c515e3bfcc72b10b3792197ea4c983b\transformed\jetified-UnityAds\AndroidManifest.xml:14:9-18:74
+141            android:name="com.unity3d.services.ads.adunit.AdUnitActivity"
+141-->[:UnityAds:] C:\Users\yazga\.gradle\caches\transforms-3\0c515e3bfcc72b10b3792197ea4c983b\transformed\jetified-UnityAds\AndroidManifest.xml:15:13-74
+142            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+142-->[:UnityAds:] C:\Users\yazga\.gradle\caches\transforms-3\0c515e3bfcc72b10b3792197ea4c983b\transformed\jetified-UnityAds\AndroidManifest.xml:16:13-170
+143            android:hardwareAccelerated="true"
+143-->[:UnityAds:] C:\Users\yazga\.gradle\caches\transforms-3\0c515e3bfcc72b10b3792197ea4c983b\transformed\jetified-UnityAds\AndroidManifest.xml:17:13-47
+144            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+144-->[:UnityAds:] C:\Users\yazga\.gradle\caches\transforms-3\0c515e3bfcc72b10b3792197ea4c983b\transformed\jetified-UnityAds\AndroidManifest.xml:18:13-71
+145        <activity
+145-->[:UnityAds:] C:\Users\yazga\.gradle\caches\transforms-3\0c515e3bfcc72b10b3792197ea4c983b\transformed\jetified-UnityAds\AndroidManifest.xml:19:9-23:86
+146            android:name="com.unity3d.services.ads.adunit.AdUnitTransparentActivity"
+146-->[:UnityAds:] C:\Users\yazga\.gradle\caches\transforms-3\0c515e3bfcc72b10b3792197ea4c983b\transformed\jetified-UnityAds\AndroidManifest.xml:20:13-85
+147            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+147-->[:UnityAds:] C:\Users\yazga\.gradle\caches\transforms-3\0c515e3bfcc72b10b3792197ea4c983b\transformed\jetified-UnityAds\AndroidManifest.xml:21:13-170
+148            android:hardwareAccelerated="true"
+148-->[:UnityAds:] C:\Users\yazga\.gradle\caches\transforms-3\0c515e3bfcc72b10b3792197ea4c983b\transformed\jetified-UnityAds\AndroidManifest.xml:22:13-47
+149            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+149-->[:UnityAds:] C:\Users\yazga\.gradle\caches\transforms-3\0c515e3bfcc72b10b3792197ea4c983b\transformed\jetified-UnityAds\AndroidManifest.xml:23:13-83
+150        <activity
+150-->[:UnityAds:] C:\Users\yazga\.gradle\caches\transforms-3\0c515e3bfcc72b10b3792197ea4c983b\transformed\jetified-UnityAds\AndroidManifest.xml:24:9-28:86
+151            android:name="com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity"
+151-->[:UnityAds:] C:\Users\yazga\.gradle\caches\transforms-3\0c515e3bfcc72b10b3792197ea4c983b\transformed\jetified-UnityAds\AndroidManifest.xml:25:13-93
+152            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+152-->[:UnityAds:] C:\Users\yazga\.gradle\caches\transforms-3\0c515e3bfcc72b10b3792197ea4c983b\transformed\jetified-UnityAds\AndroidManifest.xml:26:13-170
+153            android:hardwareAccelerated="false"
+153-->[:UnityAds:] C:\Users\yazga\.gradle\caches\transforms-3\0c515e3bfcc72b10b3792197ea4c983b\transformed\jetified-UnityAds\AndroidManifest.xml:27:13-48
+154            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+154-->[:UnityAds:] C:\Users\yazga\.gradle\caches\transforms-3\0c515e3bfcc72b10b3792197ea4c983b\transformed\jetified-UnityAds\AndroidManifest.xml:28:13-83
+155        <activity
+155-->[:UnityAds:] C:\Users\yazga\.gradle\caches\transforms-3\0c515e3bfcc72b10b3792197ea4c983b\transformed\jetified-UnityAds\AndroidManifest.xml:29:9-33:74
+156            android:name="com.unity3d.services.ads.adunit.AdUnitSoftwareActivity"
+156-->[:UnityAds:] C:\Users\yazga\.gradle\caches\transforms-3\0c515e3bfcc72b10b3792197ea4c983b\transformed\jetified-UnityAds\AndroidManifest.xml:30:13-82
+157            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+157-->[:UnityAds:] C:\Users\yazga\.gradle\caches\transforms-3\0c515e3bfcc72b10b3792197ea4c983b\transformed\jetified-UnityAds\AndroidManifest.xml:31:13-170
+158            android:hardwareAccelerated="false"
+158-->[:UnityAds:] C:\Users\yazga\.gradle\caches\transforms-3\0c515e3bfcc72b10b3792197ea4c983b\transformed\jetified-UnityAds\AndroidManifest.xml:32:13-48
+159            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+159-->[:UnityAds:] C:\Users\yazga\.gradle\caches\transforms-3\0c515e3bfcc72b10b3792197ea4c983b\transformed\jetified-UnityAds\AndroidManifest.xml:33:13-71
+160
+161        <provider
+161-->[:VuforiaEngine:] C:\Users\yazga\.gradle\caches\transforms-3\3d48355f22001fd2f977baacd81cb148\transformed\jetified-VuforiaEngine\AndroidManifest.xml:25:9-33:20
+162            android:name="com.vuforia.engine.app.VuforiaContentProvider"
+162-->[:VuforiaEngine:] C:\Users\yazga\.gradle\caches\transforms-3\3d48355f22001fd2f977baacd81cb148\transformed\jetified-VuforiaEngine\AndroidManifest.xml:26:13-73
+163            android:authorities="com.vuforia.engine.VuforiaEngine.vuforia.share"
+163-->[:VuforiaEngine:] C:\Users\yazga\.gradle\caches\transforms-3\3d48355f22001fd2f977baacd81cb148\transformed\jetified-VuforiaEngine\AndroidManifest.xml:27:13-65
+164            android:exported="false"
+164-->[:VuforiaEngine:] C:\Users\yazga\.gradle\caches\transforms-3\3d48355f22001fd2f977baacd81cb148\transformed\jetified-VuforiaEngine\AndroidManifest.xml:28:13-37
+165            android:grantUriPermissions="true" >
+165-->[:VuforiaEngine:] C:\Users\yazga\.gradle\caches\transforms-3\3d48355f22001fd2f977baacd81cb148\transformed\jetified-VuforiaEngine\AndroidManifest.xml:29:13-47
+166            <meta-data
+166-->[:VuforiaEngine:] C:\Users\yazga\.gradle\caches\transforms-3\3d48355f22001fd2f977baacd81cb148\transformed\jetified-VuforiaEngine\AndroidManifest.xml:30:13-32:53
+167                android:name="android.support.FILE_PROVIDER_PATHS"
+167-->[:VuforiaEngine:] C:\Users\yazga\.gradle\caches\transforms-3\3d48355f22001fd2f977baacd81cb148\transformed\jetified-VuforiaEngine\AndroidManifest.xml:31:17-67
+168                android:resource="@xml/filepaths" />
+168-->[:VuforiaEngine:] C:\Users\yazga\.gradle\caches\transforms-3\3d48355f22001fd2f977baacd81cb148\transformed\jetified-VuforiaEngine\AndroidManifest.xml:32:17-50
+169        </provider>
+170        <provider
+170-->[androidx.emoji2:emoji2:1.2.0] C:\Users\yazga\.gradle\caches\transforms-3\e60bf0ab8a1217670124be7e52d524ab\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+171            android:name="androidx.startup.InitializationProvider"
+171-->[androidx.emoji2:emoji2:1.2.0] C:\Users\yazga\.gradle\caches\transforms-3\e60bf0ab8a1217670124be7e52d524ab\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+172            android:authorities="com.vuforia.engine.VuforiaEngine.androidx-startup"
+172-->[androidx.emoji2:emoji2:1.2.0] C:\Users\yazga\.gradle\caches\transforms-3\e60bf0ab8a1217670124be7e52d524ab\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+173            android:exported="false" >
+173-->[androidx.emoji2:emoji2:1.2.0] C:\Users\yazga\.gradle\caches\transforms-3\e60bf0ab8a1217670124be7e52d524ab\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+174            <meta-data
+174-->[androidx.emoji2:emoji2:1.2.0] C:\Users\yazga\.gradle\caches\transforms-3\e60bf0ab8a1217670124be7e52d524ab\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+175                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+175-->[androidx.emoji2:emoji2:1.2.0] C:\Users\yazga\.gradle\caches\transforms-3\e60bf0ab8a1217670124be7e52d524ab\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+176                android:value="androidx.startup" />
+176-->[androidx.emoji2:emoji2:1.2.0] C:\Users\yazga\.gradle\caches\transforms-3\e60bf0ab8a1217670124be7e52d524ab\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+177            <meta-data
+177-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\yazga\.gradle\caches\transforms-3\ca632e50827689b4d45330738d8735e2\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+178                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+178-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\yazga\.gradle\caches\transforms-3\ca632e50827689b4d45330738d8735e2\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+179                android:value="androidx.startup" />
+179-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\yazga\.gradle\caches\transforms-3\ca632e50827689b4d45330738d8735e2\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+180        </provider>
+181    </application>
+182
+183</manifest>
