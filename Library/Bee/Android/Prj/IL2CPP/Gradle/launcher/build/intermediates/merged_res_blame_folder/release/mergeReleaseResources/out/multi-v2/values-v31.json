@@ -4,7 +4,7 @@
             "outputFile": "com.vuforia.engine.VuforiaEngine.launcher-mergeReleaseResources-21:/values-v31/values-v31.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\yazga\\Desktop\\Yuniti\\Clase_Vuforia\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\build\\intermediates\\packaged_res\\release\\packageReleaseResources\\values-v31\\values-v31.xml",
+                    "source": "C:\\Users\\yazga\\Documents\\GitHub\\TemaSelectosIII\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\build\\intermediates\\packaged_res\\release\\packageReleaseResources\\values-v31\\values-v31.xml",
                     "from": {
                         "startLines": "2,8",
                         "startColumns": "4,4",

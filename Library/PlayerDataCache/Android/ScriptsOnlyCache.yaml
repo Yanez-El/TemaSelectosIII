@@ -1,5 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp.dll:
+    - CambiarColorBien
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
@@ -9,11 +11,25 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.TileDragAndDropManager
     - UnityEditor.Tilemaps.TilemapPrefabStageHelper
     Unity.InputSystem.dll:
+    - UnityEngine.InputSystem.InputActionAsset
+    - UnityEngine.InputSystem.InputActionReference
     - UnityEngine.InputSystem.InputSettings
     - UnityEngine.InputSystem.InputSystemObject
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
+    - UnityEngine.InputSystem.UI.InputSystemUIInputModule
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TextMeshPro:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.CommandLineTest.RunData
@@ -32,6 +48,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Text
     - UnityEngine.UI.VerticalLayoutGroup
     UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.EventTrigger
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
@@ -66,12 +83,38 @@ ScriptsOnlyBuild:
     - DefaultObserverEventHandler
     - ValidationAreaIconBehaviour
   serializedClasses:
+    Unity.InputSystem:
+    - UnityEngine.InputSystem.InputAction
+    - UnityEngine.InputSystem.InputActionMap
+    - UnityEngine.InputSystem.InputBinding
+    - UnityEngine.InputSystem.InputControlScheme
+    - UnityEngine.InputSystem.InputControlScheme/DeviceRequirement
+    Unity.TextMeshPro:
+    - TMPro.FaceInfo_Legacy
+    - TMPro.FontAssetCreationSettings
+    - TMPro.KerningTable
+    - TMPro.TMP_Character
+    - TMPro.TMP_FontFeatureTable
+    - TMPro.TMP_FontWeightPair
+    - TMPro.TMP_Sprite
+    - TMPro.TMP_SpriteCharacter
+    - TMPro.TMP_SpriteGlyph
+    - TMPro.TMP_Style
+    - TMPro.VertexGradient
     UnityEngine.CoreModule:
     - UnityEngine.Events.ArgumentCache
     - UnityEngine.Events.PersistentCallGroup
     - UnityEngine.Events.PersistentListenerMode
     - UnityEngine.Events.UnityEvent
     - UnityEngine.RectOffset
+    UnityEngine.TextCoreFontEngineModule:
+    - UnityEngine.TextCore.FaceInfo
+    - UnityEngine.TextCore.Glyph
+    - UnityEngine.TextCore.GlyphMetrics
+    - UnityEngine.TextCore.GlyphRect
+    - UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord
+    - UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord
+    - UnityEngine.TextCore.LowLevel.GlyphValueRecord
     UnityEngine.UI:
     - UnityEngine.EventSystems.EventTrigger/Entry
     - UnityEngine.EventSystems.EventTrigger/TriggerEvent
@@ -110,6 +153,9 @@ ScriptsOnlyBuild:
     - Vuforia.VuforiaConfiguration/VuforiaRuntimeResources
     - Vuforia.VuforiaConfiguration/WebCamConfiguration
   methodsToPreserve:
+  - assembly: Assembly-CSharp
+    fullTypeName: CambiarColorBien
+    methodName: CambiarColor_BTN
   - assembly: Vuforia.Unity.Engine
     fullTypeName: Vuforia.Internal.AreaTargetCaptureInfoPopup
     methodName: OnCaptureCreationError
@@ -264,7 +310,7 @@ ScriptsOnlyBuild:
     fullTypeName: Vuforia.AreaTargetCaptureBehaviour
     methodName: CancelTargetGeneration
   sceneClasses:
-    Assets/Scenes/SampleScene.unity:
+    Assets/Escena2.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -283,6 +329,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
     - Class: 81
@@ -294,63 +342,83 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 26940}
+      Script: {instanceID: 26960}
     - Class: 114
-      Script: {instanceID: 27502}
+      Script: {instanceID: 27212}
     - Class: 114
-      Script: {instanceID: 28984}
+      Script: {instanceID: 27522}
     - Class: 114
-      Script: {instanceID: 29292}
+      Script: {instanceID: 27872}
     - Class: 114
-      Script: {instanceID: 30150}
+      Script: {instanceID: 27920}
     - Class: 114
-      Script: {instanceID: 30472}
+      Script: {instanceID: 28182}
     - Class: 114
-      Script: {instanceID: 30694}
+      Script: {instanceID: 29002}
     - Class: 114
-      Script: {instanceID: 31010}
+      Script: {instanceID: 29308}
     - Class: 114
-      Script: {instanceID: 32054}
+      Script: {instanceID: 29598}
     - Class: 114
-      Script: {instanceID: 32282}
+      Script: {instanceID: 30166}
     - Class: 114
-      Script: {instanceID: 32724}
+      Script: {instanceID: 30488}
     - Class: 114
-      Script: {instanceID: 33190}
+      Script: {instanceID: 30710}
     - Class: 114
-      Script: {instanceID: 33540}
+      Script: {instanceID: 31026}
     - Class: 114
-      Script: {instanceID: 35508}
+      Script: {instanceID: 32070}
     - Class: 114
-      Script: {instanceID: 35868}
+      Script: {instanceID: 32298}
     - Class: 114
-      Script: {instanceID: 35902}
+      Script: {instanceID: 32726}
     - Class: 114
-      Script: {instanceID: 35906}
+      Script: {instanceID: 32738}
+    - Class: 114
+      Script: {instanceID: 32892}
+    - Class: 114
+      Script: {instanceID: 33044}
+    - Class: 114
+      Script: {instanceID: 33204}
+    - Class: 114
+      Script: {instanceID: 33552}
+    - Class: 114
+      Script: {instanceID: 34238}
+    - Class: 114
+      Script: {instanceID: 34312}
+    - Class: 114
+      Script: {instanceID: 35516}
+    - Class: 114
+      Script: {instanceID: 35874}
     - Class: 114
       Script: {instanceID: 35908}
     - Class: 114
-      Script: {instanceID: 35910}
+      Script: {instanceID: 35912}
     - Class: 114
       Script: {instanceID: 35914}
     - Class: 114
       Script: {instanceID: 35916}
     - Class: 114
-      Script: {instanceID: 35952}
+      Script: {instanceID: 35920}
     - Class: 114
-      Script: {instanceID: 35970}
+      Script: {instanceID: 35922}
     - Class: 114
-      Script: {instanceID: 35978}
+      Script: {instanceID: 35958}
     - Class: 114
-      Script: {instanceID: 35980}
-    - Class: 114
-      Script: {instanceID: 35982}
+      Script: {instanceID: 35976}
     - Class: 114
       Script: {instanceID: 35984}
     - Class: 114
-      Script: {instanceID: 35996}
+      Script: {instanceID: 35986}
     - Class: 114
-      Script: {instanceID: 35998}
+      Script: {instanceID: 35988}
+    - Class: 114
+      Script: {instanceID: 35990}
+    - Class: 114
+      Script: {instanceID: 36002}
+    - Class: 114
+      Script: {instanceID: 36004}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -508,6 +576,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnMouseUpMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: e47df4e52a1781b89ec7a56eeaa8023c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CambiarColorBien
   - hash:
       serializedVersion: 2
       Hash: 8b15e35eb98fc258ec2e839df7c3c9b0
@@ -1854,5 +1928,5 @@ ScriptsOnlyBuild:
     className: UnityLifeCycleListener
   platform: 13
   scenePathNames:
-  - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/yazga/Desktop/Yuniti/Clase_Vuforia/Clase_AR.apk
+  - Assets/Escena2.unity
+  playerPath: C:/Users/yazga/Desktop/Yuniti/Clase_Vuforia/Clase_AR2.apk

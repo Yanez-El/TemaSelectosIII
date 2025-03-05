@@ -1,6 +1,6 @@
 <lint-module
     format="1"
-    dir="C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary"
+    dir="C:\Users\yazga\Documents\GitHub\TemaSelectosIII\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary"
     name=":unityLibrary"
     type="LIBRARY"
     maven="Gradle:unityLibrary:"

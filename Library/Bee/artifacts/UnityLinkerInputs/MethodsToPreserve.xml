@@ -1,4 +1,9 @@
 <linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="CambiarColorBien">
+			<method name="CambiarColor_BTN"/>
+		</type>
+	</assembly>
 	<assembly fullname="UnityEngine.CoreModule" ignoreIfMissing="1">
 		<type fullname="UnityEngine.GameObject">
 			<method name="SetActive"/>

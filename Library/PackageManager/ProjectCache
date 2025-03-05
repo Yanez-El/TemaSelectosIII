@@ -1,6 +1,6 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/yazga/Desktop/Yuniti/Clase_Vuforia/Packages/manifest.json
+    m_FilePath: C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
@@ -8,7 +8,7 @@ m_ProjectFiles:
       ticks: 638761977684559020
     m_Hash: 1873983367
   m_LockFileStatus:
-    m_FilePath: C:/Users/yazga/Desktop/Yuniti/Clase_Vuforia/Packages/packages-lock.json
+    m_FilePath: C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
@@ -19,29 +19,29 @@ m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus:
-  - m_FilePath: C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Packages\com.ptc.vuforia.engine-11.0.4.tgz/package.json
+  - m_FilePath: C:\Users\yazga\Documents\GitHub\TemaSelectosIII\Packages\com.ptc.vuforia.engine-11.0.4.tgz/package.json
     m_PathExists: 0
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
       ticks: 0
     m_Hash: 0
-  - m_FilePath: C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Packages\com.ptc.vuforia.engine-11.0.4.tgz
+  - m_FilePath: C:\Users\yazga\Documents\GitHub\TemaSelectosIII\Packages\com.ptc.vuforia.engine-11.0.4.tgz
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
       ticks: 638750528700000000
     m_Hash: 995258166
-m_ProjectPath: C:/Users/yazga/Desktop/Yuniti/Clase_Vuforia/Packages
+m_ProjectPath: C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Packages
 m_EditorVersion: 6000.0.40f1 (157d81624ddf)
 m_ResolvedPackages:
-- packageId: com.ptc.vuforia.engine@file:C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Packages\com.ptc.vuforia.engine-11.0.4.tgz
+- packageId: com.ptc.vuforia.engine@file:C:\Users\yazga\Documents\GitHub\TemaSelectosIII\Packages\com.ptc.vuforia.engine-11.0.4.tgz
   testable: 0
   isDirectDependency: 1
   version: 11.0.4
   source: 6
-  resolvedPath: C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\PackageCache\com.ptc.vuforia.engine@053984073e9f
+  resolvedPath: C:\Users\yazga\Documents\GitHub\TemaSelectosIII\Library\PackageCache\com.ptc.vuforia.engine@053984073e9f
   assetPath: Packages/com.ptc.vuforia.engine
   name: com.ptc.vuforia.engine
   displayName: Vuforia Engine AR
@@ -139,7 +139,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\PackageCache\com.unity.2d.sprite@072d7bd355e5
+  resolvedPath: C:\Users\yazga\Documents\GitHub\TemaSelectosIII\Library\PackageCache\com.unity.2d.sprite@072d7bd355e5
   assetPath: Packages/com.unity.2d.sprite
   name: com.unity.2d.sprite
   displayName: 2D Sprite
@@ -209,7 +209,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\PackageCache\com.unity.2d.tilemap@91afae292a4e
+  resolvedPath: C:\Users\yazga\Documents\GitHub\TemaSelectosIII\Library\PackageCache\com.unity.2d.tilemap@91afae292a4e
   assetPath: Packages/com.unity.2d.tilemap
   name: com.unity.2d.tilemap
   displayName: 2D Tilemap Editor
@@ -296,7 +296,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 4.4.2
   source: 1
-  resolvedPath: C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\PackageCache\com.unity.ads@a7b997f68a1d
+  resolvedPath: C:\Users\yazga\Documents\GitHub\TemaSelectosIII\Library\PackageCache\com.unity.ads@a7b997f68a1d
   assetPath: Packages/com.unity.ads
   name: com.unity.ads
   displayName: Advertisement Legacy
@@ -429,7 +429,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.6
   source: 1
-  resolvedPath: C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\PackageCache\com.unity.ai.navigation@c74b2724ed42
+  resolvedPath: C:\Users\yazga\Documents\GitHub\TemaSelectosIII\Library\PackageCache\com.unity.ai.navigation@c74b2724ed42
   assetPath: Packages/com.unity.ai.navigation
   name: com.unity.ai.navigation
   displayName: AI Navigation
@@ -545,7 +545,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.8.1
   source: 1
-  resolvedPath: C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\PackageCache\com.unity.analytics@6cc66d58ac08
+  resolvedPath: C:\Users\yazga\Documents\GitHub\TemaSelectosIII\Library\PackageCache\com.unity.analytics@6cc66d58ac08
   assetPath: Packages/com.unity.analytics
   name: com.unity.analytics
   displayName: Analytics Library
@@ -673,7 +673,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.7.1
   source: 1
-  resolvedPath: C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\PackageCache\com.unity.collab-proxy@50ac96531b63
+  resolvedPath: C:\Users\yazga\Documents\GitHub\TemaSelectosIII\Library\PackageCache\com.unity.collab-proxy@50ac96531b63
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -856,7 +856,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.5
   source: 1
-  resolvedPath: C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\PackageCache\com.unity.ext.nunit@60ef35ffd3cd
+  resolvedPath: C:\Users\yazga\Documents\GitHub\TemaSelectosIII\Library\PackageCache\com.unity.ext.nunit@60ef35ffd3cd
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -935,7 +935,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.2
   source: 2
-  resolvedPath: C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\PackageCache\com.unity.feature.development@767aadbc6eb7
+  resolvedPath: C:\Users\yazga\Documents\GitHub\TemaSelectosIII\Library\PackageCache\com.unity.feature.development@767aadbc6eb7
   assetPath: Packages/com.unity.feature.development
   name: com.unity.feature.development
   displayName: Engineering
@@ -1036,7 +1036,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.31
   source: 1
-  resolvedPath: C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\PackageCache\com.unity.ide.rider@7921be93db40
+  resolvedPath: C:\Users\yazga\Documents\GitHub\TemaSelectosIII\Library\PackageCache\com.unity.ide.rider@7921be93db40
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -1155,7 +1155,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.22
   source: 1
-  resolvedPath: C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\PackageCache\com.unity.ide.visualstudio@8140e851d83e
+  resolvedPath: C:\Users\yazga\Documents\GitHub\TemaSelectosIII\Library\PackageCache\com.unity.ide.visualstudio@8140e851d83e
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -1261,7 +1261,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.13.0
   source: 1
-  resolvedPath: C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\PackageCache\com.unity.inputsystem@ea5ab5b33a26
+  resolvedPath: C:\Users\yazga\Documents\GitHub\TemaSelectosIII\Library\PackageCache\com.unity.inputsystem@ea5ab5b33a26
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
@@ -1416,7 +1416,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\PackageCache\com.unity.multiplayer.center@f3fb577b3546
+  resolvedPath: C:\Users\yazga\Documents\GitHub\TemaSelectosIII\Library\PackageCache\com.unity.multiplayer.center@f3fb577b3546
   assetPath: Packages/com.unity.multiplayer.center
   name: com.unity.multiplayer.center
   displayName: Multiplayer Center
@@ -1506,7 +1506,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.4.6
   source: 1
-  resolvedPath: C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\PackageCache\com.unity.test-framework@5ac417e07314
+  resolvedPath: C:\Users\yazga\Documents\GitHub\TemaSelectosIII\Library\PackageCache\com.unity.test-framework@5ac417e07314
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -1658,7 +1658,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.8.7
   source: 1
-  resolvedPath: C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\PackageCache\com.unity.timeline@c58b4ee65782
+  resolvedPath: C:\Users\yazga\Documents\GitHub\TemaSelectosIII\Library\PackageCache\com.unity.timeline@c58b4ee65782
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -1843,7 +1843,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.0
   source: 2
-  resolvedPath: C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\PackageCache\com.unity.ugui@03407c6d8751
+  resolvedPath: C:\Users\yazga\Documents\GitHub\TemaSelectosIII\Library\PackageCache\com.unity.ugui@03407c6d8751
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -1935,7 +1935,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.9.5
   source: 1
-  resolvedPath: C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\PackageCache\com.unity.visualscripting@1b53f46e931b
+  resolvedPath: C:\Users\yazga\Documents\GitHub\TemaSelectosIII\Library\PackageCache\com.unity.visualscripting@1b53f46e931b
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -4473,7 +4473,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 1
-  resolvedPath: C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\PackageCache\com.unity.editorcoroutines@7d48783e7b8c
+  resolvedPath: C:\Users\yazga\Documents\GitHub\TemaSelectosIII\Library\PackageCache\com.unity.editorcoroutines@7d48783e7b8c
   assetPath: Packages/com.unity.editorcoroutines
   name: com.unity.editorcoroutines
   displayName: Editor Coroutines
@@ -4550,7 +4550,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.2.3
   source: 1
-  resolvedPath: C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\PackageCache\com.unity.performance.profile-analyzer@a68e7bc84997
+  resolvedPath: C:\Users\yazga\Documents\GitHub\TemaSelectosIII\Library\PackageCache\com.unity.performance.profile-analyzer@a68e7bc84997
   assetPath: Packages/com.unity.performance.profile-analyzer
   name: com.unity.performance.profile-analyzer
   displayName: Profile Analyzer
@@ -4635,7 +4635,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.2.6
   source: 1
-  resolvedPath: C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\PackageCache\com.unity.testtools.codecoverage@205a02cbcb39
+  resolvedPath: C:\Users\yazga\Documents\GitHub\TemaSelectosIII\Library\PackageCache\com.unity.testtools.codecoverage@205a02cbcb39
   assetPath: Packages/com.unity.testtools.codecoverage
   name: com.unity.testtools.codecoverage
   displayName: Code Coverage
@@ -4758,7 +4758,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 6.0.1
   source: 1
-  resolvedPath: C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\PackageCache\com.unity.services.analytics@f7e249983920
+  resolvedPath: C:\Users\yazga\Documents\GitHub\TemaSelectosIII\Library\PackageCache\com.unity.services.analytics@f7e249983920
   assetPath: Packages/com.unity.services.analytics
   name: com.unity.services.analytics
   displayName: Analytics
@@ -4886,7 +4886,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 3.2.1
   source: 1
-  resolvedPath: C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\PackageCache\com.unity.nuget.newtonsoft-json@74deb55db2a0
+  resolvedPath: C:\Users\yazga\Documents\GitHub\TemaSelectosIII\Library\PackageCache\com.unity.nuget.newtonsoft-json@74deb55db2a0
   assetPath: Packages/com.unity.nuget.newtonsoft-json
   name: com.unity.nuget.newtonsoft-json
   displayName: Newtonsoft Json
@@ -4977,7 +4977,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.1
   source: 1
-  resolvedPath: C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\PackageCache\com.unity.settings-manager@56a930affa1e
+  resolvedPath: C:\Users\yazga\Documents\GitHub\TemaSelectosIII\Library\PackageCache\com.unity.settings-manager@56a930affa1e
   assetPath: Packages/com.unity.settings-manager
   name: com.unity.settings-manager
   displayName: Settings Manager
@@ -5051,7 +5051,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.14.0
   source: 1
-  resolvedPath: C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\PackageCache\com.unity.services.core@9e81a5e38245
+  resolvedPath: C:\Users\yazga\Documents\GitHub\TemaSelectosIII\Library\PackageCache\com.unity.services.core@9e81a5e38245
   assetPath: Packages/com.unity.services.core
   name: com.unity.services.core
   displayName: Services Core

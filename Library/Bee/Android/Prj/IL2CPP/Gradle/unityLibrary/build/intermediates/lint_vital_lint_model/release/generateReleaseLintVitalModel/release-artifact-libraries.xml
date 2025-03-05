@@ -1,8 +1,8 @@
 <libraries>
   <library
-      name="__local_aars__:C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar"
-      jars="C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar"
-      resolved="__local_aars__:C:\Users\yazga\Desktop\Yuniti\Clase_Vuforia\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar:unspecified"/>
+      name="__local_aars__:C:\Users\yazga\Documents\GitHub\TemaSelectosIII\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar"
+      jars="C:\Users\yazga\Documents\GitHub\TemaSelectosIII\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar"
+      resolved="__local_aars__:C:\Users\yazga\Documents\GitHub\TemaSelectosIII\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar:unspecified"/>
   <library
       name="com.google.ar:core:1.36.0@aar"
       jars="C:\Users\yazga\.gradle\caches\transforms-3\b72778c05344b1df9fad2e142485c639\transformed\jetified-core-1.36.0\jars\classes.jar"
