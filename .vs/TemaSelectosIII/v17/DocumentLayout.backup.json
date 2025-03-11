@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\yazga\\Documents\\GitHub\\TemaSelectosIII\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4BE4C07B-522D-6E1C-7890-719E79E6095C}|Assembly-CSharp.csproj|c:\\users\\yazga\\documents\\github\\temaselectosiii\\assets\\cambiarcolorbien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4BE4C07B-522D-6E1C-7890-719E79E6095C}|Assembly-CSharp.csproj|c:\\users\\yazga\\documents\\github\\temaselectosiii\\assets\\cambiartextura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BE4C07B-522D-6E1C-7890-719E79E6095C}|Assembly-CSharp.csproj|solutionrelative:assets\\cambiartextura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BE4C07B-522D-6E1C-7890-719E79E6095C}|Assembly-CSharp.csproj|C:\\Users\\yazga\\Documents\\GitHub\\TemaSelectosIII\\assets\\cambiarcolorbien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4BE4C07B-522D-6E1C-7890-719E79E6095C}|Assembly-CSharp.csproj|solutionrelative:assets\\cambiarcolorbien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -19,15 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CambiarTextura.cs",
+              "DocumentMoniker": "C:\\Users\\yazga\\Documents\\GitHub\\TemaSelectosIII\\Assets\\CambiarTextura.cs",
+              "RelativeDocumentMoniker": "Assets\\CambiarTextura.cs",
+              "ToolTip": "C:\\Users\\yazga\\Documents\\GitHub\\TemaSelectosIII\\Assets\\CambiarTextura.cs",
+              "RelativeToolTip": "Assets\\CambiarTextura.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAQAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T05:41:53.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "CambiarColorBien.cs",
               "DocumentMoniker": "C:\\Users\\yazga\\Documents\\GitHub\\TemaSelectosIII\\Assets\\CambiarColorBien.cs",
               "RelativeDocumentMoniker": "Assets\\CambiarColorBien.cs",
               "ToolTip": "C:\\Users\\yazga\\Documents\\GitHub\\TemaSelectosIII\\Assets\\CambiarColorBien.cs",
               "RelativeToolTip": "Assets\\CambiarColorBien.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCAAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T02:50:17.48Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-05T02:50:17.48Z"
             }
           ]
         }

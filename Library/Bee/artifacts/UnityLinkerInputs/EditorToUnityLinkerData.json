@@ -16,6 +16,13 @@
             "usedInScenes": []
         },
         {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "CambiarTexturaBien",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "VuforiaScripts.dll",
             "nativeClass": "",
             "fullManagedTypeName": "DefaultInitializationErrorHandler",

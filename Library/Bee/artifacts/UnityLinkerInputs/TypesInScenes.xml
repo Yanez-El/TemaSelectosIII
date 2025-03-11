@@ -1,6 +1,7 @@
 <linker>
 	<assembly fullname="Assembly-CSharp">
 		<type fullname="CambiarColorBien" preserve="nothing"/>
+		<type fullname="CambiarTexturaBien" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.InputSystem">
 		<type fullname="UnityEngine.InputSystem.InputActionAsset" preserve="nothing"/>

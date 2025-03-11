@@ -3,6 +3,9 @@
 		<type fullname="CambiarColorBien">
 			<method name="CambiarColor_BTN"/>
 		</type>
+		<type fullname="CambiarTexturaBien">
+			<method name="CambiarTextura_BTN"/>
+		</type>
 	</assembly>
 	<assembly fullname="UnityEngine.CoreModule" ignoreIfMissing="1">
 		<type fullname="UnityEngine.GameObject">
