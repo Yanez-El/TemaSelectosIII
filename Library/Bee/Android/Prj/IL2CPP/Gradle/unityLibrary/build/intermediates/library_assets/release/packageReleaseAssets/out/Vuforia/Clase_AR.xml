@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
   <Tracking>
+    <ImageTarget name="nightmare" size="512.000000 512.000000" />
+    <ImageTarget name="almost" size="512.000000 512.000000" />
+    <ImageTarget name="thestage" size="512.000000 512.000000" />
+    <ImageTarget name="httk" size="512.000000 512.000000" />
     <ImageTarget name="a7x" size="512.000000 512.000000" />
   </Tracking>
 </QCARConfig>

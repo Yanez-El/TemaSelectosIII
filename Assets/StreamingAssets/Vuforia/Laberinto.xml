@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="sport2" size="512.000000 388.594879" />
+    <ImageTarget name="sport1" size="512.000000 387.343781" />
+    <ImageTarget name="gato22" size="512.000000 501.062744" />
+    <ImageTarget name="gato1_1" size="256.000000 254.310226" />
+    <ImageTarget name="toro2_2" size="256.000000 296.702942" />
+    <ImageTarget name="toro1_1" size="256.000000 293.489532" />
+    <ImageTarget name="inventario" size="512.000000 512.000000" />
+    <ImageTarget name="simon" size="256.000000 307.706940" />
+    <ImageTarget name="rayos" size="256.000000 307.706940" />
+  </Tracking>
+</QCARConfig>

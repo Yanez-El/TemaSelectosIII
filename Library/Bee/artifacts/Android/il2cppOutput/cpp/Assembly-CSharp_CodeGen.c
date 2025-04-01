@@ -13,11 +13,21 @@ extern void CambiarColorBien_CambiarColor_BTN_mF603EF2F7957B5CB45FCDB32F36EF6035
 extern void CambiarColorBien__ctor_m7001CCBF64A016616C08FDD58577E86131462A18 (void);
 extern void CambiarTexturaBien_CambiarTextura_BTN_m30428EEDF7AECDA8FC3DF8D530BE619BE6C413C6 (void);
 extern void CambiarTexturaBien__ctor_m6F7682530E732EB18A0506FEF1FE6D51D64124E1 (void);
+extern void Mover_moveToNextMarker_m0F07C4774AA317DBFBAECA1A0837EB7478F7FB97 (void);
+extern void Mover_MoveModel_m94BD1903D742EC5836B25DE215B7064812FCA634 (void);
+extern void Mover_GetClosestTarget_mEDD4B22710A0482B8B114A2E4B0115939DB37454 (void);
+extern void Mover__ctor_m42BE037E9D362144C40954F1490FE254A63E336A (void);
+extern void U3CMoveModelU3Ed__6__ctor_m17086A2509E76CEB88F2D91BD53CE8315978701C (void);
+extern void U3CMoveModelU3Ed__6_System_IDisposable_Dispose_mCFC922A174612F5032646CD5A13499EAC5CF68A3 (void);
+extern void U3CMoveModelU3Ed__6_MoveNext_m0C59282A5ECEA2D375B235D2F96C24C8E4FE809C (void);
+extern void U3CMoveModelU3Ed__6_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mC92352FA09E66057A1FC24B9F7776DE860C22AC0 (void);
+extern void U3CMoveModelU3Ed__6_System_Collections_IEnumerator_Reset_mC15AEF00C5012FF7544FE726566BB94FE7EB378C (void);
+extern void U3CMoveModelU3Ed__6_System_Collections_IEnumerator_get_Current_mD1AE9FAFF2455131529F3E69D24554E0BAF40306 (void);
 extern void VuforiaLicense_GetLicenseKey_m796D51E5EF1C53F3D62BA4EA8806AC1FB1A5E3C4 (void);
 extern void VuforiaLicense__ctor_m094B92B3323DFFD79ADB696474D5D158C95E291B (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[10] = 
+static Il2CppMethodPointer s_methodPointers[20] = 
 {
 	CambiarColorBien_Start_mE614D4C28863DCD130EAD03B6977AA77602C5702,
 	CambiarColorBien_Update_mCB7ECA387997530DCFC3737FCD3047D5F1556654,
@@ -25,12 +35,22 @@ static Il2CppMethodPointer s_methodPointers[10] =
 	CambiarColorBien__ctor_m7001CCBF64A016616C08FDD58577E86131462A18,
 	CambiarTexturaBien_CambiarTextura_BTN_m30428EEDF7AECDA8FC3DF8D530BE619BE6C413C6,
 	CambiarTexturaBien__ctor_m6F7682530E732EB18A0506FEF1FE6D51D64124E1,
+	Mover_moveToNextMarker_m0F07C4774AA317DBFBAECA1A0837EB7478F7FB97,
+	Mover_MoveModel_m94BD1903D742EC5836B25DE215B7064812FCA634,
+	Mover_GetClosestTarget_mEDD4B22710A0482B8B114A2E4B0115939DB37454,
+	Mover__ctor_m42BE037E9D362144C40954F1490FE254A63E336A,
+	U3CMoveModelU3Ed__6__ctor_m17086A2509E76CEB88F2D91BD53CE8315978701C,
+	U3CMoveModelU3Ed__6_System_IDisposable_Dispose_mCFC922A174612F5032646CD5A13499EAC5CF68A3,
+	U3CMoveModelU3Ed__6_MoveNext_m0C59282A5ECEA2D375B235D2F96C24C8E4FE809C,
+	U3CMoveModelU3Ed__6_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mC92352FA09E66057A1FC24B9F7776DE860C22AC0,
+	U3CMoveModelU3Ed__6_System_Collections_IEnumerator_Reset_mC15AEF00C5012FF7544FE726566BB94FE7EB378C,
+	U3CMoveModelU3Ed__6_System_Collections_IEnumerator_get_Current_mD1AE9FAFF2455131529F3E69D24554E0BAF40306,
 	VuforiaLicense_GetLicenseKey_m796D51E5EF1C53F3D62BA4EA8806AC1FB1A5E3C4,
 	VuforiaLicense__ctor_m094B92B3323DFFD79ADB696474D5D158C95E291B,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 };
-static const int32_t s_InvokerIndices[10] = 
+static const int32_t s_InvokerIndices[20] = 
 {
 	9427,
 	9427,
@@ -38,6 +58,16 @@ static const int32_t s_InvokerIndices[10] =
 	9427,
 	9427,
 	9427,
+	9427,
+	9273,
+	9273,
+	9427,
+	7342,
+	9427,
+	9129,
+	9273,
+	9427,
+	9273,
 	13565,
 	9427,
 	13651,
@@ -47,7 +77,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	10,
+	20,
 	s_methodPointers,
 	0,
 	NULL,

@@ -1324,8 +1324,7 @@
         1314,
         1315,
         1316,
-        1317,
-        1318
+        1317
       ],
       "DebugActionIndex": 0
     },
@@ -39310,27 +39309,6 @@
       "DebugActionIndex": 1149
     },
     {
-      "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/icallsummary.txt",
-      "DisplayName": "Copying icallsummary.txt",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/Android/ManagedStripped/icallsummary.txt"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/icallsummary.txt"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        15
-      ],
-      "DebugActionIndex": 1150
-    },
-    {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Mono.Security.dll",
       "DisplayName": "Copying Mono.Security.dll",
       "ActionType": "CopyFiles",
@@ -39349,7 +39327,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1151
+      "DebugActionIndex": 1150
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/mscorlib.dll",
@@ -39370,7 +39348,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1152
+      "DebugActionIndex": 1151
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Newtonsoft.Json.dll",
@@ -39391,7 +39369,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1153
+      "DebugActionIndex": 1152
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Newtonsoft.Json.pdb",
@@ -39412,7 +39390,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1154
+      "DebugActionIndex": 1153
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Configuration.dll",
@@ -39433,7 +39411,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1155
+      "DebugActionIndex": 1154
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Core.dll",
@@ -39454,7 +39432,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1156
+      "DebugActionIndex": 1155
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Data.dll",
@@ -39475,7 +39453,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1157
+      "DebugActionIndex": 1156
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.dll",
@@ -39496,7 +39474,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1158
+      "DebugActionIndex": 1157
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Drawing.dll",
@@ -39517,7 +39495,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1159
+      "DebugActionIndex": 1158
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Numerics.dll",
@@ -39538,7 +39516,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1160
+      "DebugActionIndex": 1159
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Runtime.Serialization.dll",
@@ -39559,7 +39537,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1161
+      "DebugActionIndex": 1160
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Xml.dll",
@@ -39580,7 +39558,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1162
+      "DebugActionIndex": 1161
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Xml.Linq.dll",
@@ -39601,7 +39579,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1163
+      "DebugActionIndex": 1162
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.InputSystem.dll",
@@ -39622,7 +39600,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1164
+      "DebugActionIndex": 1163
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.InputSystem.ForUI.dll",
@@ -39643,7 +39621,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1165
+      "DebugActionIndex": 1164
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.InputSystem.ForUI.pdb",
@@ -39664,7 +39642,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1166
+      "DebugActionIndex": 1165
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.InputSystem.pdb",
@@ -39685,7 +39663,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1167
+      "DebugActionIndex": 1166
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Analytics.dll",
@@ -39706,7 +39684,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1168
+      "DebugActionIndex": 1167
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Analytics.pdb",
@@ -39727,7 +39705,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1169
+      "DebugActionIndex": 1168
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Configuration.dll",
@@ -39748,7 +39726,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1170
+      "DebugActionIndex": 1169
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Configuration.pdb",
@@ -39769,7 +39747,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1171
+      "DebugActionIndex": 1170
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Device.dll",
@@ -39790,7 +39768,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1172
+      "DebugActionIndex": 1171
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Device.pdb",
@@ -39811,7 +39789,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1173
+      "DebugActionIndex": 1172
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.dll",
@@ -39832,7 +39810,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1174
+      "DebugActionIndex": 1173
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Environments.Internal.dll",
@@ -39853,7 +39831,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1175
+      "DebugActionIndex": 1174
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Environments.Internal.pdb",
@@ -39874,7 +39852,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1176
+      "DebugActionIndex": 1175
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Internal.dll",
@@ -39895,7 +39873,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1177
+      "DebugActionIndex": 1176
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Internal.pdb",
@@ -39916,7 +39894,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1178
+      "DebugActionIndex": 1177
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.pdb",
@@ -39937,7 +39915,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1179
+      "DebugActionIndex": 1178
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Registration.dll",
@@ -39958,7 +39936,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1180
+      "DebugActionIndex": 1179
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Registration.pdb",
@@ -39979,7 +39957,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1181
+      "DebugActionIndex": 1180
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Scheduler.dll",
@@ -40000,7 +39978,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1182
+      "DebugActionIndex": 1181
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Scheduler.pdb",
@@ -40021,7 +39999,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1183
+      "DebugActionIndex": 1182
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Telemetry.dll",
@@ -40042,7 +40020,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1184
+      "DebugActionIndex": 1183
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Telemetry.pdb",
@@ -40063,7 +40041,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1185
+      "DebugActionIndex": 1184
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Threading.dll",
@@ -40084,7 +40062,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1186
+      "DebugActionIndex": 1185
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Threading.pdb",
@@ -40105,7 +40083,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1187
+      "DebugActionIndex": 1186
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.TextMeshPro.dll",
@@ -40126,7 +40104,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1188
+      "DebugActionIndex": 1187
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.TextMeshPro.pdb",
@@ -40147,7 +40125,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1189
+      "DebugActionIndex": 1188
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AIModule.dll",
@@ -40168,7 +40146,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1190
+      "DebugActionIndex": 1189
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AIModule.pdb",
@@ -40189,7 +40167,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1191
+      "DebugActionIndex": 1190
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AndroidJNIModule.dll",
@@ -40210,7 +40188,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1192
+      "DebugActionIndex": 1191
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AndroidJNIModule.pdb",
@@ -40231,7 +40209,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1193
+      "DebugActionIndex": 1192
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AnimationModule.dll",
@@ -40252,7 +40230,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1194
+      "DebugActionIndex": 1193
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AnimationModule.pdb",
@@ -40273,7 +40251,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1195
+      "DebugActionIndex": 1194
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AudioModule.dll",
@@ -40294,7 +40272,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1196
+      "DebugActionIndex": 1195
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AudioModule.pdb",
@@ -40315,7 +40293,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1197
+      "DebugActionIndex": 1196
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.CoreModule.dll",
@@ -40336,7 +40314,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1198
+      "DebugActionIndex": 1197
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.CoreModule.pdb",
@@ -40357,7 +40335,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1199
+      "DebugActionIndex": 1198
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.dll",
@@ -40378,7 +40356,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1200
+      "DebugActionIndex": 1199
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.GridModule.dll",
@@ -40399,7 +40377,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1201
+      "DebugActionIndex": 1200
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.GridModule.pdb",
@@ -40420,7 +40398,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1202
+      "DebugActionIndex": 1201
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.HierarchyCoreModule.dll",
@@ -40441,7 +40419,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1203
+      "DebugActionIndex": 1202
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.HierarchyCoreModule.pdb",
@@ -40462,7 +40440,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1204
+      "DebugActionIndex": 1203
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.IMGUIModule.dll",
@@ -40483,7 +40461,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1205
+      "DebugActionIndex": 1204
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.IMGUIModule.pdb",
@@ -40504,7 +40482,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1206
+      "DebugActionIndex": 1205
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.InputForUIModule.dll",
@@ -40525,7 +40503,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1207
+      "DebugActionIndex": 1206
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.InputForUIModule.pdb",
@@ -40546,7 +40524,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1208
+      "DebugActionIndex": 1207
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.InputLegacyModule.dll",
@@ -40567,7 +40545,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1209
+      "DebugActionIndex": 1208
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.InputLegacyModule.pdb",
@@ -40588,7 +40566,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1210
+      "DebugActionIndex": 1209
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.InputModule.dll",
@@ -40609,7 +40587,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1211
+      "DebugActionIndex": 1210
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.InputModule.pdb",
@@ -40630,7 +40608,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1212
+      "DebugActionIndex": 1211
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.JSONSerializeModule.dll",
@@ -40651,7 +40629,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1213
+      "DebugActionIndex": 1212
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.JSONSerializeModule.pdb",
@@ -40672,7 +40650,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1214
+      "DebugActionIndex": 1213
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.pdb",
@@ -40693,7 +40671,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1215
+      "DebugActionIndex": 1214
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Physics2DModule.dll",
@@ -40714,7 +40692,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1216
+      "DebugActionIndex": 1215
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Physics2DModule.pdb",
@@ -40735,7 +40713,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1217
+      "DebugActionIndex": 1216
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.PhysicsModule.dll",
@@ -40756,7 +40734,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1218
+      "DebugActionIndex": 1217
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.PhysicsModule.pdb",
@@ -40777,7 +40755,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1219
+      "DebugActionIndex": 1218
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.PropertiesModule.dll",
@@ -40798,7 +40776,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1220
+      "DebugActionIndex": 1219
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.PropertiesModule.pdb",
@@ -40819,7 +40797,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1221
+      "DebugActionIndex": 1220
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SharedInternalsModule.dll",
@@ -40840,7 +40818,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1222
+      "DebugActionIndex": 1221
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SharedInternalsModule.pdb",
@@ -40861,7 +40839,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1223
+      "DebugActionIndex": 1222
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SpriteShapeModule.dll",
@@ -40882,7 +40860,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1224
+      "DebugActionIndex": 1223
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SpriteShapeModule.pdb",
@@ -40903,7 +40881,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1225
+      "DebugActionIndex": 1224
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SubsystemsModule.dll",
@@ -40924,7 +40902,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1226
+      "DebugActionIndex": 1225
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SubsystemsModule.pdb",
@@ -40945,7 +40923,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1227
+      "DebugActionIndex": 1226
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextCoreFontEngineModule.dll",
@@ -40966,7 +40944,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1228
+      "DebugActionIndex": 1227
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextCoreFontEngineModule.pdb",
@@ -40987,7 +40965,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1229
+      "DebugActionIndex": 1228
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextCoreTextEngineModule.dll",
@@ -41008,7 +40986,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1230
+      "DebugActionIndex": 1229
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextCoreTextEngineModule.pdb",
@@ -41029,7 +41007,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1231
+      "DebugActionIndex": 1230
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextRenderingModule.dll",
@@ -41050,7 +41028,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1232
+      "DebugActionIndex": 1231
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextRenderingModule.pdb",
@@ -41071,7 +41049,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1233
+      "DebugActionIndex": 1232
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TilemapModule.dll",
@@ -41092,7 +41070,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1234
+      "DebugActionIndex": 1233
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TilemapModule.pdb",
@@ -41113,7 +41091,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1235
+      "DebugActionIndex": 1234
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UI.dll",
@@ -41134,7 +41112,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1236
+      "DebugActionIndex": 1235
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UI.pdb",
@@ -41155,7 +41133,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1237
+      "DebugActionIndex": 1236
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UIElementsModule.dll",
@@ -41176,7 +41154,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1238
+      "DebugActionIndex": 1237
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UIElementsModule.pdb",
@@ -41197,7 +41175,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1239
+      "DebugActionIndex": 1238
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UIModule.dll",
@@ -41218,7 +41196,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1240
+      "DebugActionIndex": 1239
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UIModule.pdb",
@@ -41239,7 +41217,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1241
+      "DebugActionIndex": 1240
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UnityAnalyticsCommonModule.dll",
@@ -41260,7 +41238,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1242
+      "DebugActionIndex": 1241
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UnityAnalyticsCommonModule.pdb",
@@ -41281,7 +41259,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1243
+      "DebugActionIndex": 1242
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UnityAnalyticsModule.dll",
@@ -41302,7 +41280,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1244
+      "DebugActionIndex": 1243
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UnityAnalyticsModule.pdb",
@@ -41323,7 +41301,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1245
+      "DebugActionIndex": 1244
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UnityWebRequestModule.dll",
@@ -41344,7 +41322,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1246
+      "DebugActionIndex": 1245
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UnityWebRequestModule.pdb",
@@ -41365,7 +41343,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1247
+      "DebugActionIndex": 1246
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.VRModule.dll",
@@ -41386,7 +41364,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1248
+      "DebugActionIndex": 1247
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.VRModule.pdb",
@@ -41407,7 +41385,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1249
+      "DebugActionIndex": 1248
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.XRModule.dll",
@@ -41428,7 +41406,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1250
+      "DebugActionIndex": 1249
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.XRModule.pdb",
@@ -41449,7 +41427,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1251
+      "DebugActionIndex": 1250
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityLinkerToEditorData.json",
@@ -41470,7 +41448,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1252
+      "DebugActionIndex": 1251
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Vuforia.Unity.Engine.dll",
@@ -41491,7 +41469,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1253
+      "DebugActionIndex": 1252
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Vuforia.Unity.Wrapper.dll",
@@ -41512,7 +41490,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1254
+      "DebugActionIndex": 1253
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/VuforiaScripts.dll",
@@ -41533,7 +41511,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1255
+      "DebugActionIndex": 1254
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/VuforiaScripts.pdb",
@@ -41554,7 +41532,7 @@
       "ToBuildDependencies": [
         15
       ],
-      "DebugActionIndex": 1256
+      "DebugActionIndex": 1255
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/Resources/unity default resources",
@@ -41572,7 +41550,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1257
+      "DebugActionIndex": 1256
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/IntermediateFiles.txt_ri9j.info",
@@ -41589,7 +41567,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 1258
+      "DebugActionIndex": 1257
     },
     {
       "Annotation": "ActionGenerateProjectFiles Library/Bee/artifacts/Android/IntermediateFiles.txt (+44 others)",
@@ -41784,11 +41762,11 @@
         0
       ],
       "ToBuildDependencies": [
-        1258
+        1257
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1259
+      "DebugActionIndex": 1258
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/java/com/unity3d/player/UnityPlayerGameActivity.java",
@@ -41806,7 +41784,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1260
+      "DebugActionIndex": 1259
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/unity-classes.jar",
@@ -41824,7 +41802,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1261
+      "DebugActionIndex": 1260
     },
     {
       "Annotation": "SourceBuildPlayerFiles",
@@ -41834,11 +41812,11 @@
       "Outputs": [],
       "OutputFlags": [],
       "ToBuildDependencies": [
-        1261,
-        1300,
-        1310
+        1260,
+        1299,
+        1309
       ],
-      "DebugActionIndex": 1262
+      "DebugActionIndex": 1261
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/IntermediateLauncherManifestDiag.txt_4oyd.info",
@@ -41855,7 +41833,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 1263
+      "DebugActionIndex": 1262
     },
     {
       "Annotation": "Generate Manifests Library/Bee/artifacts/Android/Manifest/IntermediateLauncherManifestDiag.txt (+3 others)",
@@ -42092,11 +42070,11 @@
         131,
         133,
         135,
-        1263
+        1262
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1264
+      "DebugActionIndex": 1263
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/ids.xml",
@@ -42114,7 +42092,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1265
+      "DebugActionIndex": 1264
     },
     {
       "Annotation": "WriteText C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v21/styles.xml",
@@ -42131,7 +42109,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1266
+      "DebugActionIndex": 1265
     },
     {
       "Annotation": "WriteText C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v31/styles.xml",
@@ -42148,7 +42126,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1267
+      "DebugActionIndex": 1266
     },
     {
       "Annotation": "WriteText C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/styles.xml",
@@ -42165,7 +42143,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1268
+      "DebugActionIndex": 1267
     },
     {
       "Annotation": "WriteText C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/colors.xml",
@@ -42182,7 +42160,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1269
+      "DebugActionIndex": 1268
     },
     {
       "Annotation": "WriteText C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values/strings.xml",
@@ -42199,7 +42177,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1270
+      "DebugActionIndex": 1269
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/strings.xml",
@@ -42217,7 +42195,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1271
+      "DebugActionIndex": 1270
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v30/freeformwindow.xml",
@@ -42235,7 +42213,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1272
+      "DebugActionIndex": 1271
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/freeformwindow.xml",
@@ -42253,7 +42231,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1273
+      "DebugActionIndex": 1272
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon.xml",
@@ -42271,7 +42249,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1274
+      "DebugActionIndex": 1273
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon_round.xml",
@@ -42289,7 +42267,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1275
+      "DebugActionIndex": 1274
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/app_icon.png",
@@ -42307,7 +42285,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1276
+      "DebugActionIndex": 1275
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_background.png",
@@ -42325,7 +42303,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1277
+      "DebugActionIndex": 1276
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_foreground.png",
@@ -42343,7 +42321,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1278
+      "DebugActionIndex": 1277
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-ldpi/app_icon.png",
@@ -42361,7 +42339,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1279
+      "DebugActionIndex": 1278
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-hdpi/app_icon.png",
@@ -42379,7 +42357,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1280
+      "DebugActionIndex": 1279
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xhdpi/app_icon.png",
@@ -42397,7 +42375,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1281
+      "DebugActionIndex": 1280
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xxhdpi/app_icon.png",
@@ -42415,7 +42393,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1282
+      "DebugActionIndex": 1281
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xxxhdpi/app_icon.png",
@@ -42433,7 +42411,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1283
+      "DebugActionIndex": 1282
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-ldpi/app_icon_round.png",
@@ -42451,7 +42429,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1284
+      "DebugActionIndex": 1283
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/app_icon_round.png",
@@ -42469,7 +42447,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1285
+      "DebugActionIndex": 1284
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-hdpi/app_icon_round.png",
@@ -42487,7 +42465,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1286
+      "DebugActionIndex": 1285
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xhdpi/app_icon_round.png",
@@ -42505,7 +42483,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1287
+      "DebugActionIndex": 1286
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xxhdpi/app_icon_round.png",
@@ -42523,7 +42501,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1288
+      "DebugActionIndex": 1287
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xxxhdpi/app_icon_round.png",
@@ -42541,7 +42519,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1289
+      "DebugActionIndex": 1288
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-ldpi/ic_launcher_background.png",
@@ -42559,7 +42537,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1290
+      "DebugActionIndex": 1289
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-hdpi/ic_launcher_background.png",
@@ -42577,7 +42555,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1291
+      "DebugActionIndex": 1290
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xhdpi/ic_launcher_background.png",
@@ -42595,7 +42573,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1292
+      "DebugActionIndex": 1291
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xxhdpi/ic_launcher_background.png",
@@ -42613,7 +42591,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1293
+      "DebugActionIndex": 1292
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xxxhdpi/ic_launcher_background.png",
@@ -42631,7 +42609,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1294
+      "DebugActionIndex": 1293
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-ldpi/ic_launcher_foreground.png",
@@ -42649,7 +42627,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1295
+      "DebugActionIndex": 1294
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-hdpi/ic_launcher_foreground.png",
@@ -42667,7 +42645,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1296
+      "DebugActionIndex": 1295
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png",
@@ -42685,7 +42663,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1297
+      "DebugActionIndex": 1296
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png",
@@ -42703,7 +42681,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1298
+      "DebugActionIndex": 1297
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png",
@@ -42721,7 +42699,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1299
+      "DebugActionIndex": 1298
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libmain.so",
@@ -42739,7 +42717,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1300
+      "DebugActionIndex": 1299
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityClassRegistration.cpp_4isb.info",
@@ -42756,7 +42734,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 1301
+      "DebugActionIndex": 1300
     },
     {
       "Annotation": "ClassRegistrationGenerator C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/artifacts/Android/il2cppOutput/UnityClassRegistration.cpp",
@@ -42852,11 +42830,11 @@
       ],
       "ToBuildDependencies": [
         15,
-        1301
+        1300
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1302
+      "DebugActionIndex": 1301
     },
     {
       "Annotation": "Compile UnityClassRegistration Library/Bee/artifacts/Android/libunity/arm64-v8a/UnityClassRegistration.o",
@@ -42879,11 +42857,11 @@
         2
       ],
       "ToBuildDependencies": [
-        1302
+        1301
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1303
+      "DebugActionIndex": 1302
     },
     {
       "Annotation": "ICallRegistrationGenerator C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/artifacts/Android/il2cppOutput/UnityICallRegistration.cpp",
@@ -42964,7 +42942,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1304
+      "DebugActionIndex": 1303
     },
     {
       "Annotation": "Compile UnityICallRegistration Library/Bee/artifacts/Android/libunity/arm64-v8a/UnityICallRegistration.o",
@@ -42987,11 +42965,11 @@
         2
       ],
       "ToBuildDependencies": [
-        1304
+        1303
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1305
+      "DebugActionIndex": 1304
     },
     {
       "Annotation": "Link libunity Library/Bee/artifacts/Android/libunity/arm64-v8a/unstripped/libunity.so",
@@ -43020,12 +42998,12 @@
         2
       ],
       "ToBuildDependencies": [
-        1303,
-        1305
+        1302,
+        1304
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1306
+      "DebugActionIndex": 1305
     },
     {
       "Annotation": "Generate Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.dbg.so from Library/Bee/artifacts/Android/libunity/arm64-v8a/unstripped/libunity.so Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.dbg.so",
@@ -43046,11 +43024,11 @@
         2
       ],
       "ToBuildDependencies": [
-        1306
+        1305
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1307
+      "DebugActionIndex": 1306
     },
     {
       "Annotation": "Generate Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.sym.so from Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.dbg.so Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.sym.so",
@@ -43071,11 +43049,11 @@
         2
       ],
       "ToBuildDependencies": [
-        1307
+        1306
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1308
+      "DebugActionIndex": 1307
     },
     {
       "Annotation": "Stripping Library/Bee/artifacts/Android/libunity/arm64-v8a/unstripped/libunity.so -> Library/Bee/artifacts/Android/libunity/arm64-v8a/stripped/libunity.so Library/Bee/artifacts/Android/libunity/arm64-v8a/stripped/libunity.so",
@@ -43096,11 +43074,11 @@
         2
       ],
       "ToBuildDependencies": [
-        1306
+        1305
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1309
+      "DebugActionIndex": 1308
     },
     {
       "Annotation": "Adding note Library/Bee/artifacts/Android/libunity/arm64-v8a/stripped/libunity.so -> C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libunity.so C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libunity.so",
@@ -43125,12 +43103,12 @@
         10
       ],
       "ToBuildDependencies": [
-        1308,
-        1309
+        1307,
+        1308
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1310
+      "DebugActionIndex": 1309
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/arm64-v8a/libmain.so",
@@ -43148,7 +43126,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1311
+      "DebugActionIndex": 1310
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/arm64-v8a/libil2cpp.so",
@@ -43169,7 +43147,7 @@
       "ToBuildDependencies": [
         730
       ],
-      "DebugActionIndex": 1312
+      "DebugActionIndex": 1311
     },
     {
       "Annotation": "CopyFiles C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/arm64-v8a/libunity.so",
@@ -43188,9 +43166,9 @@
         10
       ],
       "ToBuildDependencies": [
-        1308
+        1307
       ],
-      "DebugActionIndex": 1313
+      "DebugActionIndex": 1312
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/unity_app_guid_dfqt.info",
@@ -43207,7 +43185,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 1314
+      "DebugActionIndex": 1313
     },
     {
       "Annotation": "GuidGenerator C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid",
@@ -43284,11 +43262,11 @@
       "ToBuildDependencies": [
         5,
         136,
-        1314
+        1313
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1315
+      "DebugActionIndex": 1314
     },
     {
       "Annotation": "WriteText C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/resources/META-INF/com.android.games.engine.build_fingerprint",
@@ -43305,7 +43283,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1316
+      "DebugActionIndex": 1315
     },
     {
       "Annotation": "ModifyAndroidProjectCallback C:/Users/yazga/Documents/GitHub/TemaSelectosIII/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml (+8 others)",
@@ -43440,12 +43418,12 @@
         0
       ],
       "ToBuildDependencies": [
+        1258,
         1259,
         1260,
-        1261,
-        1264
+        1263
       ],
-      "DebugActionIndex": 1317
+      "DebugActionIndex": 1316
     },
     {
       "Annotation": "Player",
@@ -44046,10 +44024,10 @@
         1254,
         1255,
         1256,
-        1257,
+        1258,
         1259,
         1260,
-        1261,
+        1263,
         1264,
         1265,
         1266,
@@ -44086,13 +44064,12 @@
         1297,
         1298,
         1299,
-        1300,
-        1310,
+        1309,
+        1314,
         1315,
-        1316,
-        1317
+        1316
       ],
-      "DebugActionIndex": 1318
+      "DebugActionIndex": 1317
     }
   ],
   "FileSignatures": [
@@ -44610,8 +44587,8 @@
   "EmitDataForBeeWhy": 0,
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "SourceBuildPlayerFiles": 1262,
-          "Player": 1318
+          "SourceBuildPlayerFiles": 1261,
+          "Player": 1317
         }
 ,  "DefaultNodes": [
     0

@@ -1,8 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - CambiarColorBien
-    - CambiarTexturaBien
+    - Mover
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
@@ -36,6 +35,9 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.CommandLineTest.RunData
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEditor.UI.dll:
+    - UnityEditor.UI.ButtonEditor
+    - UnityEditor.UI.ImageEditor
     UnityEngine.UI:
     - UnityEngine.EventSystems.EventTrigger
     - UnityEngine.UI.Button
@@ -155,11 +157,8 @@ ScriptsOnlyBuild:
     - Vuforia.VuforiaConfiguration/WebCamConfiguration
   methodsToPreserve:
   - assembly: Assembly-CSharp
-    fullTypeName: CambiarColorBien
-    methodName: CambiarColor_BTN
-  - assembly: Assembly-CSharp
-    fullTypeName: CambiarTexturaBien
-    methodName: CambiarTextura_BTN
+    fullTypeName: Mover
+    methodName: moveToNextMarker
   - assembly: Vuforia.Unity.Engine
     fullTypeName: Vuforia.Internal.AreaTargetCaptureInfoPopup
     methodName: OnCaptureCreationError
@@ -314,7 +313,7 @@ ScriptsOnlyBuild:
     fullTypeName: Vuforia.AreaTargetCaptureBehaviour
     methodName: CancelTargetGeneration
   sceneClasses:
-    Assets/Escena2.unity:
+    Assets/Escena4.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -346,88 +345,88 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 26962}
+      Script: {instanceID: 26966}
     - Class: 114
-      Script: {instanceID: 27214}
+      Script: {instanceID: 27218}
     - Class: 114
-      Script: {instanceID: 27524}
+      Script: {instanceID: 27528}
     - Class: 114
-      Script: {instanceID: 27874}
+      Script: {instanceID: 27880}
     - Class: 114
-      Script: {instanceID: 27922}
+      Script: {instanceID: 28190}
     - Class: 114
-      Script: {instanceID: 28184}
+      Script: {instanceID: 29010}
     - Class: 114
-      Script: {instanceID: 29004}
+      Script: {instanceID: 29316}
     - Class: 114
-      Script: {instanceID: 29310}
+      Script: {instanceID: 29606}
     - Class: 114
-      Script: {instanceID: 29600}
+      Script: {instanceID: 30174}
     - Class: 114
-      Script: {instanceID: 30168}
+      Script: {instanceID: 30496}
     - Class: 114
-      Script: {instanceID: 30490}
+      Script: {instanceID: 30718}
     - Class: 114
-      Script: {instanceID: 30712}
+      Script: {instanceID: 31034}
     - Class: 114
-      Script: {instanceID: 31028}
+      Script: {instanceID: 32078}
     - Class: 114
-      Script: {instanceID: 32072}
+      Script: {instanceID: 32306}
     - Class: 114
-      Script: {instanceID: 32300}
+      Script: {instanceID: 32734}
     - Class: 114
-      Script: {instanceID: 32728}
+      Script: {instanceID: 32746}
     - Class: 114
-      Script: {instanceID: 32740}
+      Script: {instanceID: 32900}
     - Class: 114
-      Script: {instanceID: 32894}
+      Script: {instanceID: 33052}
     - Class: 114
-      Script: {instanceID: 33046}
+      Script: {instanceID: 33212}
     - Class: 114
-      Script: {instanceID: 33206}
+      Script: {instanceID: 33560}
     - Class: 114
-      Script: {instanceID: 33554}
+      Script: {instanceID: 34246}
     - Class: 114
-      Script: {instanceID: 34240}
+      Script: {instanceID: 34320}
     - Class: 114
-      Script: {instanceID: 34314}
+      Script: {instanceID: 35524}
     - Class: 114
-      Script: {instanceID: 35518}
-    - Class: 114
-      Script: {instanceID: 35876}
-    - Class: 114
-      Script: {instanceID: 35910}
-    - Class: 114
-      Script: {instanceID: 35914}
+      Script: {instanceID: 35882}
     - Class: 114
       Script: {instanceID: 35916}
     - Class: 114
-      Script: {instanceID: 35918}
+      Script: {instanceID: 35920}
     - Class: 114
       Script: {instanceID: 35922}
     - Class: 114
       Script: {instanceID: 35924}
     - Class: 114
-      Script: {instanceID: 35960}
+      Script: {instanceID: 35928}
     - Class: 114
-      Script: {instanceID: 35978}
+      Script: {instanceID: 35930}
     - Class: 114
-      Script: {instanceID: 35986}
+      Script: {instanceID: 35966}
     - Class: 114
-      Script: {instanceID: 35988}
-    - Class: 114
-      Script: {instanceID: 35990}
+      Script: {instanceID: 35984}
     - Class: 114
       Script: {instanceID: 35992}
     - Class: 114
-      Script: {instanceID: 36004}
+      Script: {instanceID: 35994}
     - Class: 114
-      Script: {instanceID: 36006}
+      Script: {instanceID: 35996}
     - Class: 114
-      Script: {instanceID: 38220}
+      Script: {instanceID: 35998}
+    - Class: 114
+      Script: {instanceID: 36010}
+    - Class: 114
+      Script: {instanceID: 36012}
+    - Class: 114
+      Script: {instanceID: 38072}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -504,6 +503,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: ad79aa4f75f6d4dc062db7dc16c66757
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CambiarTexturaBien
   - hash:
       serializedVersion: 2
       Hash: 86344100c716167fb86137c127ca9eee
@@ -1934,11 +1939,11 @@ ScriptsOnlyBuild:
     className: UnityLifeCycleListener
   - hash:
       serializedVersion: 2
-      Hash: ad79aa4f75f6d4dc062db7dc16c66757
+      Hash: 5085099007cbf962eb3ea38ccffa44f9
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: CambiarTexturaBien
+    className: Mover
   platform: 13
   scenePathNames:
-  - Assets/Escena2.unity
+  - Assets/Escena4.unity
   playerPath: C:/Users/yazga/Desktop/Yuniti/Clase_Vuforia/Clase_AR2.apk

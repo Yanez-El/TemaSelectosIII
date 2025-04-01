@@ -933,7 +933,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   model: {fileID: 760324806}
-  material: {fileID: 2100000, guid: b56159d0b4891cc44aa61418b6701c19, type: 2}
   textura1: {fileID: 2800000, guid: 92a0ee4408108424ab12a1c868ee319b, type: 3}
   textura2: {fileID: 2800000, guid: 5c24305c3f12eec45929431588418304, type: 3}
   textura3: {fileID: 2800000, guid: 7c6703d225e8e8c48b0f23f1c852abad, type: 3}
