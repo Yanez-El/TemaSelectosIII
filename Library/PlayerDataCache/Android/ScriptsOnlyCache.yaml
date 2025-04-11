@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - ControlVentanas
     - Mover
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
@@ -35,9 +36,6 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.CommandLineTest.RunData
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
-    UnityEditor.UI.dll:
-    - UnityEditor.UI.ButtonEditor
-    - UnityEditor.UI.ImageEditor
     UnityEngine.UI:
     - UnityEngine.EventSystems.EventTrigger
     - UnityEngine.UI.Button
@@ -159,6 +157,30 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: Mover
     methodName: moveToNextMarker
+  - assembly: Assembly-CSharp
+    fullTypeName: Mover
+    methodName: moveToNextMarker
+  - assembly: Assembly-CSharp
+    fullTypeName: Mover
+    methodName: moveToNextMarker
+  - assembly: Assembly-CSharp
+    fullTypeName: Mover
+    methodName: moveToNextMarker
+  - assembly: Assembly-CSharp
+    fullTypeName: Mover
+    methodName: moveToNextMarker
+  - assembly: Assembly-CSharp
+    fullTypeName: ControlVentanas
+    methodName: mostrarPopUp
+  - assembly: Assembly-CSharp
+    fullTypeName: Mover
+    methodName: moveToNextMarker
+  - assembly: Assembly-CSharp
+    fullTypeName: Mover
+    methodName: moveToNextMarker
+  - assembly: Assembly-CSharp
+    fullTypeName: ControlVentanas
+    methodName: ocultarPopUp
   - assembly: Vuforia.Unity.Engine
     fullTypeName: Vuforia.Internal.AreaTargetCaptureInfoPopup
     methodName: OnCaptureCreationError
@@ -313,7 +335,7 @@ ScriptsOnlyBuild:
     fullTypeName: Vuforia.AreaTargetCaptureBehaviour
     methodName: CancelTargetGeneration
   sceneClasses:
-    Assets/Escena4.unity:
+    Assets/Lab.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -345,88 +367,88 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 26966}
+      Script: {instanceID: 26976}
     - Class: 114
-      Script: {instanceID: 27218}
+      Script: {instanceID: 27228}
     - Class: 114
-      Script: {instanceID: 27528}
+      Script: {instanceID: 27538}
     - Class: 114
-      Script: {instanceID: 27880}
+      Script: {instanceID: 27890}
     - Class: 114
-      Script: {instanceID: 28190}
+      Script: {instanceID: 27912}
     - Class: 114
-      Script: {instanceID: 29010}
+      Script: {instanceID: 28202}
     - Class: 114
-      Script: {instanceID: 29316}
+      Script: {instanceID: 29022}
     - Class: 114
-      Script: {instanceID: 29606}
+      Script: {instanceID: 29328}
     - Class: 114
-      Script: {instanceID: 30174}
+      Script: {instanceID: 29618}
     - Class: 114
-      Script: {instanceID: 30496}
+      Script: {instanceID: 30092}
     - Class: 114
-      Script: {instanceID: 30718}
+      Script: {instanceID: 30188}
     - Class: 114
-      Script: {instanceID: 31034}
+      Script: {instanceID: 30510}
     - Class: 114
-      Script: {instanceID: 32078}
+      Script: {instanceID: 30732}
     - Class: 114
-      Script: {instanceID: 32306}
+      Script: {instanceID: 31048}
     - Class: 114
-      Script: {instanceID: 32734}
+      Script: {instanceID: 32092}
     - Class: 114
-      Script: {instanceID: 32746}
+      Script: {instanceID: 32320}
     - Class: 114
-      Script: {instanceID: 32900}
+      Script: {instanceID: 32748}
     - Class: 114
-      Script: {instanceID: 33052}
+      Script: {instanceID: 32760}
     - Class: 114
-      Script: {instanceID: 33212}
+      Script: {instanceID: 32914}
     - Class: 114
-      Script: {instanceID: 33560}
+      Script: {instanceID: 33066}
     - Class: 114
-      Script: {instanceID: 34246}
+      Script: {instanceID: 33226}
     - Class: 114
-      Script: {instanceID: 34320}
+      Script: {instanceID: 33574}
     - Class: 114
-      Script: {instanceID: 35524}
+      Script: {instanceID: 34260}
     - Class: 114
-      Script: {instanceID: 35882}
+      Script: {instanceID: 34334}
     - Class: 114
-      Script: {instanceID: 35916}
+      Script: {instanceID: 35538}
     - Class: 114
-      Script: {instanceID: 35920}
-    - Class: 114
-      Script: {instanceID: 35922}
-    - Class: 114
-      Script: {instanceID: 35924}
-    - Class: 114
-      Script: {instanceID: 35928}
+      Script: {instanceID: 35896}
     - Class: 114
       Script: {instanceID: 35930}
     - Class: 114
-      Script: {instanceID: 35966}
+      Script: {instanceID: 35934}
     - Class: 114
-      Script: {instanceID: 35984}
+      Script: {instanceID: 35936}
     - Class: 114
-      Script: {instanceID: 35992}
+      Script: {instanceID: 35938}
     - Class: 114
-      Script: {instanceID: 35994}
+      Script: {instanceID: 35942}
     - Class: 114
-      Script: {instanceID: 35996}
+      Script: {instanceID: 35944}
+    - Class: 114
+      Script: {instanceID: 35980}
     - Class: 114
       Script: {instanceID: 35998}
+    - Class: 114
+      Script: {instanceID: 36006}
+    - Class: 114
+      Script: {instanceID: 36008}
     - Class: 114
       Script: {instanceID: 36010}
     - Class: 114
       Script: {instanceID: 36012}
     - Class: 114
-      Script: {instanceID: 38072}
+      Script: {instanceID: 36024}
+    - Class: 114
+      Script: {instanceID: 36026}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
-      Script: {instanceID: 0}
-    - Class: 135
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -581,6 +603,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.UI
     className: InputSystemUIInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: a78d48ad061b0ba026e89b65f8fb93cb
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ControlVentanas
   - hash:
       serializedVersion: 2
       Hash: 568292fb7ea6c4f7a667e5ff76bc7e85
@@ -869,6 +897,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Services.Core.Components
     namespaceName: Unity.Services.Core.Components
     className: ServicesInitialization
+  - hash:
+      serializedVersion: 2
+      Hash: 048bd3f47f9c964c9d95c9a8b578394d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Mover
   - hash:
       serializedVersion: 2
       Hash: 191c3402cd43ee08f0a96795440c294e
@@ -1937,13 +1971,7 @@ ScriptsOnlyBuild:
     assemblyName: Vuforia.Unity.Engine.dll
     namespaceName: Vuforia.Internal.Core
     className: UnityLifeCycleListener
-  - hash:
-      serializedVersion: 2
-      Hash: 5085099007cbf962eb3ea38ccffa44f9
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Mover
   platform: 13
   scenePathNames:
-  - Assets/Escena4.unity
-  playerPath: C:/Users/yazga/Desktop/Yuniti/Clase_Vuforia/Clase_AR2.apk
+  - Assets/Lab.unity
+  playerPath: C:/Users/yazga/Desktop/Yuniti/Clase_Vuforia/Lab_AR.apk

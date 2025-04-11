@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\yazga\\Documents\\GitHub\\TemaSelectosIII\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4BE4C07B-522D-6E1C-7890-719E79E6095C}|Assembly-CSharp.csproj|c:\\users\\yazga\\documents\\github\\temaselectosiii\\assets\\laberinto\\controlventanas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BE4C07B-522D-6E1C-7890-719E79E6095C}|Assembly-CSharp.csproj|solutionrelative:assets\\laberinto\\controlventanas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4BE4C07B-522D-6E1C-7890-719E79E6095C}|Assembly-CSharp.csproj|c:\\users\\yazga\\documents\\github\\temaselectosiii\\assets\\mover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4BE4C07B-522D-6E1C-7890-719E79E6095C}|Assembly-CSharp.csproj|solutionrelative:assets\\mover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BE4C07B-522D-6E1C-7890-719E79E6095C}|Assembly-CSharp.csproj|C:\\Users\\yazga\\Documents\\GitHub\\TemaSelectosIII\\assets\\laberinto\\controlventanas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BE4C07B-522D-6E1C-7890-719E79E6095C}|Assembly-CSharp.csproj|solutionrelative:assets\\laberinto\\controlventanas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4BE4C07B-522D-6E1C-7890-719E79E6095C}|Assembly-CSharp.csproj|C:\\Users\\yazga\\Documents\\GitHub\\TemaSelectosIII\\assets\\cambiartextura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,30 +26,29 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ControlVentanas.cs",
               "DocumentMoniker": "C:\\Users\\yazga\\Documents\\GitHub\\TemaSelectosIII\\Assets\\Laberinto\\ControlVentanas.cs",
               "RelativeDocumentMoniker": "Assets\\Laberinto\\ControlVentanas.cs",
               "ToolTip": "C:\\Users\\yazga\\Documents\\GitHub\\TemaSelectosIII\\Assets\\Laberinto\\ControlVentanas.cs",
               "RelativeToolTip": "Assets\\Laberinto\\ControlVentanas.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T19:21:38.649Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T19:21:38.649Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Mover.cs",
               "DocumentMoniker": "C:\\Users\\yazga\\Documents\\GitHub\\TemaSelectosIII\\Assets\\Mover.cs",
               "RelativeDocumentMoniker": "Assets\\Mover.cs",
               "ToolTip": "C:\\Users\\yazga\\Documents\\GitHub\\TemaSelectosIII\\Assets\\Mover.cs",
               "RelativeToolTip": "Assets\\Mover.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAKEAAAAAAAAAAAAowDkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-19T16:46:07.417Z",
               "EditorCaption": ""

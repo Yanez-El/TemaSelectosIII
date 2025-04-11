@@ -40,7 +40,7 @@
           {
             "name": "AudioBehaviour",
             "scenes": [
-              "Assets/Escena4.unity"
+              "Assets/Lab.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -54,7 +54,7 @@
           {
             "name": "AudioListener",
             "scenes": [
-              "Assets/Escena4.unity"
+              "Assets/Lab.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -109,7 +109,7 @@
           {
             "name": "Camera",
             "scenes": [
-              "Assets/Escena4.unity"
+              "Assets/Lab.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -129,7 +129,7 @@
           {
             "name": "Cubemap",
             "scenes": [
-              "Assets/Escena4.unity"
+              "Assets/Lab.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -149,7 +149,7 @@
           {
             "name": "EditorExtension",
             "scenes": [
-              "Assets/Escena4.unity"
+              "Assets/Lab.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -163,7 +163,7 @@
           {
             "name": "GameObject",
             "scenes": [
-              "Assets/Escena4.unity"
+              "Assets/Lab.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -189,7 +189,7 @@
           {
             "name": "LevelGameManager",
             "scenes": [
-              "Assets/Escena4.unity"
+              "Assets/Lab.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -197,7 +197,7 @@
           {
             "name": "Light",
             "scenes": [
-              "Assets/Escena4.unity"
+              "Assets/Lab.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -217,7 +217,7 @@
           {
             "name": "LightmapSettings",
             "scenes": [
-              "Assets/Escena4.unity"
+              "Assets/Lab.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -231,7 +231,7 @@
           {
             "name": "Material",
             "scenes": [
-              "Assets/Escena4.unity"
+              "Assets/Lab.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -239,7 +239,7 @@
           {
             "name": "Mesh",
             "scenes": [
-              "Assets/Escena4.unity"
+              "Assets/Lab.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -247,7 +247,7 @@
           {
             "name": "MeshFilter",
             "scenes": [
-              "Assets/Escena4.unity"
+              "Assets/Lab.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -255,7 +255,7 @@
           {
             "name": "MeshRenderer",
             "scenes": [
-              "Assets/Escena4.unity"
+              "Assets/Lab.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -263,7 +263,7 @@
           {
             "name": "MonoBehaviour",
             "scenes": [
-              "Assets/Escena4.unity"
+              "Assets/Lab.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -277,7 +277,7 @@
           {
             "name": "MonoScript",
             "scenes": [
-              "Assets/Escena4.unity"
+              "Assets/Lab.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -285,7 +285,7 @@
           {
             "name": "NamedObject",
             "scenes": [
-              "Assets/Escena4.unity"
+              "Assets/Lab.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -317,7 +317,7 @@
           {
             "name": "RectTransform",
             "scenes": [
-              "Assets/Escena4.unity"
+              "Assets/Lab.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -331,7 +331,7 @@
           {
             "name": "RenderSettings",
             "scenes": [
-              "Assets/Escena4.unity"
+              "Assets/Lab.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -363,7 +363,7 @@
           {
             "name": "Shader",
             "scenes": [
-              "Assets/Escena4.unity"
+              "Assets/Lab.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -383,7 +383,7 @@
           {
             "name": "Sprite",
             "scenes": [
-              "Assets/Escena4.unity"
+              "Assets/Lab.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -767,7 +767,7 @@
           {
             "name": "Collider",
             "scenes": [
-              "Assets/Escena4.unity"
+              "Assets/Lab.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -775,7 +775,7 @@
           {
             "name": "MeshCollider",
             "scenes": [
-              "Assets/Escena4.unity"
+              "Assets/Lab.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -784,14 +784,6 @@
             "name": "PhysicsManager",
             "scenes": [],
             "dependencyType": 1,
-            "icon": null
-          },
-          {
-            "name": "SphereCollider",
-            "scenes": [
-              "Assets/Escena4.unity"
-            ],
-            "dependencyType": 0,
             "icon": null
           },
           {
@@ -1082,7 +1074,7 @@
           {
             "name": "Font",
             "scenes": [
-              "Assets/Escena4.unity"
+              "Assets/Lab.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1125,7 +1117,7 @@
           {
             "name": "Canvas",
             "scenes": [
-              "Assets/Escena4.unity"
+              "Assets/Lab.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1133,7 +1125,7 @@
           {
             "name": "CanvasGroup",
             "scenes": [
-              "Assets/Escena4.unity"
+              "Assets/Lab.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1141,7 +1133,7 @@
           {
             "name": "CanvasRenderer",
             "scenes": [
-              "Assets/Escena4.unity"
+              "Assets/Lab.unity"
             ],
             "dependencyType": 0,
             "icon": null

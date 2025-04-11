@@ -1,6 +1,16 @@
 <linker>
 	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="ControlVentanas">
+			<method name="mostrarPopUp"/>
+			<method name="ocultarPopUp"/>
+		</type>
 		<type fullname="Mover">
+			<method name="moveToNextMarker"/>
+			<method name="moveToNextMarker"/>
+			<method name="moveToNextMarker"/>
+			<method name="moveToNextMarker"/>
+			<method name="moveToNextMarker"/>
+			<method name="moveToNextMarker"/>
 			<method name="moveToNextMarker"/>
 		</type>
 	</assembly>
