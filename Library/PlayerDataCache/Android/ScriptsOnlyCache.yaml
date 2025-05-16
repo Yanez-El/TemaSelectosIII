@@ -1,8 +1,9 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - ControlVentanas
-    - Mover
+    - DesactivarPlanoPorToque
+    - SonidoYAnimacionOrganelo
+    - VentanaEmergente
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
@@ -31,6 +32,16 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
+    Unity.VisualScripting.Flow.dll:
+    - Unity.VisualScripting.ScriptGraphAsset
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
+    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.CommandLineTest.RunData
@@ -51,6 +62,7 @@ ScriptsOnlyBuild:
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.EventTrigger
+    - UnityEngine.EventSystems.PhysicsRaycaster
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.ContentSizeFitter
@@ -63,11 +75,13 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.VerticalLayoutGroup
     Vuforia.Unity.Engine.dll:
     - Vuforia.AnchorBehaviour
+    - Vuforia.AnchorInputListenerBehaviour
+    - Vuforia.AnchorPreview
     - Vuforia.AreaTargetCaptureBehaviour
-    - Vuforia.ImageTargetBehaviour
-    - Vuforia.ImageTargetPreview
+    - Vuforia.ContentPositioningBehaviour
     - Vuforia.Internal.AreaTargetCaptureInfoPopup
     - Vuforia.Internal.AreaTargetCaptureOverlayCanvas
+    - Vuforia.PlaneFinderBehaviour
     - Vuforia.RuntimeMeshRenderingBehaviour
     - Vuforia.ScaleToValidationAreaSize
     - Vuforia.SessionRecorderBehaviour
@@ -130,6 +144,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Navigation
     - UnityEngine.UI.SpriteState
     Vuforia.Unity.Engine:
+    - Vuforia.AnchorInputListenerBehaviour/InputReceivedEvent
     - Vuforia.AreaTargetCaptureBehaviour/CaptureCreationErrorEvent
     - Vuforia.AreaTargetCaptureBehaviour/CaptureStartedEvent
     - Vuforia.AreaTargetCaptureBehaviour/CaptureStatusInfoUpdated
@@ -139,6 +154,8 @@ ScriptsOnlyBuild:
     - Vuforia.AreaTargetCaptureBehaviour/GenerationProgressEvent
     - Vuforia.AreaTargetCaptureBehaviour/GenerationRemainingTimeEvent
     - Vuforia.AreaTargetCaptureBehaviour/GenerationStartedEvent
+    - Vuforia.ContentPlacedEvent
+    - Vuforia.HitTestEvent
     - Vuforia.SessionRecorderBehaviour/CleanStorageEvent
     - Vuforia.SessionRecorderBehaviour/RecordingStartedEvent
     - Vuforia.SessionRecorderBehaviour/RecordingStoppedEvent
@@ -154,33 +171,12 @@ ScriptsOnlyBuild:
     - Vuforia.VuforiaConfiguration/VuforiaRuntimeResources
     - Vuforia.VuforiaConfiguration/WebCamConfiguration
   methodsToPreserve:
-  - assembly: Assembly-CSharp
-    fullTypeName: Mover
-    methodName: moveToNextMarker
-  - assembly: Assembly-CSharp
-    fullTypeName: Mover
-    methodName: moveToNextMarker
-  - assembly: Assembly-CSharp
-    fullTypeName: Mover
-    methodName: moveToNextMarker
-  - assembly: Assembly-CSharp
-    fullTypeName: Mover
-    methodName: moveToNextMarker
-  - assembly: Assembly-CSharp
-    fullTypeName: Mover
-    methodName: moveToNextMarker
-  - assembly: Assembly-CSharp
-    fullTypeName: ControlVentanas
-    methodName: mostrarPopUp
-  - assembly: Assembly-CSharp
-    fullTypeName: Mover
-    methodName: moveToNextMarker
-  - assembly: Assembly-CSharp
-    fullTypeName: Mover
-    methodName: moveToNextMarker
-  - assembly: Assembly-CSharp
-    fullTypeName: ControlVentanas
-    methodName: ocultarPopUp
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.ContentPositioningBehaviour
+    methodName: PositionContentAtPlaneAnchor
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.PlaneFinderBehaviour
+    methodName: PerformHitTest
   - assembly: Vuforia.Unity.Engine
     fullTypeName: Vuforia.Internal.AreaTargetCaptureInfoPopup
     methodName: OnCaptureCreationError
@@ -335,7 +331,7 @@ ScriptsOnlyBuild:
     fullTypeName: Vuforia.AreaTargetCaptureBehaviour
     methodName: CancelTargetGeneration
   sceneClasses:
-    Assets/Lab.unity:
+    Assets/EscenaPruebaProyecto.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -358,94 +354,112 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
+    - Class: 111
+      Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 26976}
+      Script: {instanceID: 26994}
     - Class: 114
-      Script: {instanceID: 27228}
+      Script: {instanceID: 27246}
     - Class: 114
-      Script: {instanceID: 27538}
+      Script: {instanceID: 27556}
     - Class: 114
-      Script: {instanceID: 27890}
+      Script: {instanceID: 27908}
     - Class: 114
-      Script: {instanceID: 27912}
+      Script: {instanceID: 28220}
     - Class: 114
-      Script: {instanceID: 28202}
+      Script: {instanceID: 29040}
     - Class: 114
-      Script: {instanceID: 29022}
+      Script: {instanceID: 29346}
     - Class: 114
-      Script: {instanceID: 29328}
+      Script: {instanceID: 29636}
     - Class: 114
-      Script: {instanceID: 29618}
+      Script: {instanceID: 30206}
     - Class: 114
-      Script: {instanceID: 30092}
+      Script: {instanceID: 30528}
     - Class: 114
-      Script: {instanceID: 30188}
+      Script: {instanceID: 30674}
     - Class: 114
-      Script: {instanceID: 30510}
+      Script: {instanceID: 30752}
     - Class: 114
-      Script: {instanceID: 30732}
+      Script: {instanceID: 31068}
     - Class: 114
-      Script: {instanceID: 31048}
+      Script: {instanceID: 32112}
     - Class: 114
-      Script: {instanceID: 32092}
+      Script: {instanceID: 32340}
     - Class: 114
-      Script: {instanceID: 32320}
+      Script: {instanceID: 32768}
     - Class: 114
-      Script: {instanceID: 32748}
+      Script: {instanceID: 32780}
     - Class: 114
-      Script: {instanceID: 32760}
+      Script: {instanceID: 32934}
     - Class: 114
-      Script: {instanceID: 32914}
+      Script: {instanceID: 33086}
     - Class: 114
-      Script: {instanceID: 33066}
+      Script: {instanceID: 33246}
     - Class: 114
-      Script: {instanceID: 33226}
+      Script: {instanceID: 33594}
     - Class: 114
-      Script: {instanceID: 33574}
+      Script: {instanceID: 34254}
     - Class: 114
-      Script: {instanceID: 34260}
+      Script: {instanceID: 34280}
     - Class: 114
-      Script: {instanceID: 34334}
+      Script: {instanceID: 34312}
     - Class: 114
-      Script: {instanceID: 35538}
+      Script: {instanceID: 34356}
     - Class: 114
-      Script: {instanceID: 35896}
+      Script: {instanceID: 35534}
     - Class: 114
-      Script: {instanceID: 35930}
+      Script: {instanceID: 35562}
     - Class: 114
-      Script: {instanceID: 35934}
+      Script: {instanceID: 35912}
     - Class: 114
-      Script: {instanceID: 35936}
+      Script: {instanceID: 35954}
     - Class: 114
-      Script: {instanceID: 35938}
+      Script: {instanceID: 35958}
     - Class: 114
-      Script: {instanceID: 35942}
+      Script: {instanceID: 35960}
     - Class: 114
-      Script: {instanceID: 35944}
+      Script: {instanceID: 35962}
     - Class: 114
-      Script: {instanceID: 35980}
+      Script: {instanceID: 35966}
     - Class: 114
-      Script: {instanceID: 35998}
+      Script: {instanceID: 35968}
     - Class: 114
-      Script: {instanceID: 36006}
+      Script: {instanceID: 35970}
     - Class: 114
-      Script: {instanceID: 36008}
+      Script: {instanceID: 35972}
     - Class: 114
-      Script: {instanceID: 36010}
+      Script: {instanceID: 35976}
     - Class: 114
-      Script: {instanceID: 36012}
+      Script: {instanceID: 36022}
     - Class: 114
-      Script: {instanceID: 36024}
+      Script: {instanceID: 36030}
     - Class: 114
-      Script: {instanceID: 36026}
+      Script: {instanceID: 36032}
+    - Class: 114
+      Script: {instanceID: 36034}
+    - Class: 114
+      Script: {instanceID: 36036}
+    - Class: 114
+      Script: {instanceID: 36048}
+    - Class: 114
+      Script: {instanceID: 36050}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -525,12 +539,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: GraphicRaycaster
-  - hash:
-      serializedVersion: 2
-      Hash: ad79aa4f75f6d4dc062db7dc16c66757
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: CambiarTexturaBien
   - hash:
       serializedVersion: 2
       Hash: 86344100c716167fb86137c127ca9eee
@@ -615,12 +623,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnMouseUpMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 75c569c21d2d575f71af207b4b9beed9
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: CambiarColorBien
   - hash:
       serializedVersion: 2
       Hash: 8b15e35eb98fc258ec2e839df7c3c9b0
@@ -899,12 +901,6 @@ ScriptsOnlyBuild:
     className: ServicesInitialization
   - hash:
       serializedVersion: 2
-      Hash: 048bd3f47f9c964c9d95c9a8b578394d
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Mover
-  - hash:
-      serializedVersion: 2
       Hash: 191c3402cd43ee08f0a96795440c294e
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.Editor
@@ -975,6 +971,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.State
     namespaceName: Unity.VisualScripting
     className: StateMachine
+  - hash:
+      serializedVersion: 2
+      Hash: 7d03c441893bc255508a3436a2ff5e82
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SonidoYAnimacionOrganelo
   - hash:
       serializedVersion: 2
       Hash: 3b5263a98bcc71d9a9d1d78a31b34ced
@@ -1433,6 +1435,12 @@ ScriptsOnlyBuild:
     className: TMP_SpriteAsset
   - hash:
       serializedVersion: 2
+      Hash: 5b334ffaf1598b7b4d8f85004f0437cf
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: DesactivarPlanoPorToque
+  - hash:
+      serializedVersion: 2
       Hash: f2098fcd8ee983a05ec192f63904298f
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1521,6 +1529,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnCollisionStay2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: ddd252b7da3db28a81fb8c29e490a4ef
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: VentanaEmergente
   - hash:
       serializedVersion: 2
       Hash: 46acddd223bc876b42fe9f174f7aca4f
@@ -1973,5 +1987,5 @@ ScriptsOnlyBuild:
     className: UnityLifeCycleListener
   platform: 13
   scenePathNames:
-  - Assets/Lab.unity
-  playerPath: C:/Users/yazga/Desktop/Yuniti/Clase_Vuforia/Lab_AR.apk
+  - Assets/EscenaPruebaProyecto.unity
+  playerPath: "C:/Users/yazga/Desktop/Yuniti/Clase_Vuforia/ProyectoFinal_Fernando_Ya\xF1ez.apk"

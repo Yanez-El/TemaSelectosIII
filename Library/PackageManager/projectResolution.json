@@ -169,13 +169,13 @@
       "source": "builtin",
       "testable": false
     },
-    "com.unity.visualscripting@1.9.5": {
+    "com.unity.visualscripting@1.9.6": {
       "name": "com.unity.visualscripting",
       "displayName": "Visual Scripting",
-      "resolvedPath": "C:\\Users\\yazga\\Documents\\GitHub\\TemaSelectosIII\\Library\\PackageCache\\com.unity.visualscripting@1b53f46e931b",
-      "fingerprint": "1b53f46e931bea668e53f1feb0ac9138170c9455",
+      "resolvedPath": "C:\\Users\\yazga\\Documents\\GitHub\\TemaSelectosIII\\Library\\PackageCache\\com.unity.visualscripting@7dcdc439b230",
+      "fingerprint": "7dcdc439b230145cec4202cd6ebad135736e0c14",
       "editorCompatibility": "2021.3.0a1",
-      "version": "1.9.5",
+      "version": "1.9.6",
       "source": "registry",
       "testable": false
     },

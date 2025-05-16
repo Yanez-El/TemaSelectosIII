@@ -9,13 +9,6 @@
             "usedInScenes": []
         },
         {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "ControlVentanas",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
             "managedAssemblyName": "VuforiaScripts.dll",
             "nativeClass": "",
             "fullManagedTypeName": "DefaultInitializationErrorHandler",
@@ -37,12 +30,19 @@
             "usedInScenes": []
         },
         {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "DesactivarPlanoPorToque",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "",
             "nativeClass": "EditorExtension",
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Lab.unity"
+                "Assets/EscenaPruebaProyecto.unity"
             ]
         },
         {
@@ -51,7 +51,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Lab.unity"
+                "Assets/EscenaPruebaProyecto.unity"
             ]
         },
         {
@@ -67,15 +67,8 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Lab.unity"
+                "Assets/EscenaPruebaProyecto.unity"
             ]
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Mover",
-            "moduleName": "",
-            "usedInScenes": []
         },
         {
             "managedAssemblyName": "",
@@ -90,7 +83,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Lab.unity"
+                "Assets/EscenaPruebaProyecto.unity"
             ]
         },
         {
@@ -106,7 +99,7 @@
             "fullManagedTypeName": "",
             "moduleName": "AI",
             "usedInScenes": [
-                "Assets/Lab.unity"
+                "Assets/EscenaPruebaProyecto.unity"
             ]
         },
         {
@@ -135,6 +128,13 @@
             "nativeClass": "ShaderNameRegistry",
             "fullManagedTypeName": "",
             "moduleName": "Core",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "SonidoYAnimacionOrganelo",
+            "moduleName": "",
             "usedInScenes": []
         },
         {
@@ -180,6 +180,22 @@
             "usedInScenes": []
         },
         {
+            "managedAssemblyName": "Unity.VisualScripting.Flow.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Unity.VisualScripting.ScriptGraphAsset",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "AnimatorController",
+            "fullManagedTypeName": "UnityEditor.Animations.AnimatorController",
+            "moduleName": "Animation",
+            "usedInScenes": [
+                "Assets/EscenaPruebaProyecto.unity"
+            ]
+        },
+        {
             "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "AudioManager",
             "fullManagedTypeName": "UnityEditor.AudioManager",
@@ -206,7 +222,7 @@
             "fullManagedTypeName": "UnityEditor.MonoScript",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Lab.unity"
+                "Assets/EscenaPruebaProyecto.unity"
             ]
         },
         {
@@ -253,11 +269,65 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Animation",
+            "fullManagedTypeName": "UnityEngine.Animation",
+            "moduleName": "Animation",
+            "usedInScenes": [
+                "Assets/EscenaPruebaProyecto.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "AnimationClip",
+            "fullManagedTypeName": "UnityEngine.AnimationClip",
+            "moduleName": "Animation",
+            "usedInScenes": [
+                "Assets/EscenaPruebaProyecto.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Animator",
+            "fullManagedTypeName": "UnityEngine.Animator",
+            "moduleName": "Animation",
+            "usedInScenes": [
+                "Assets/EscenaPruebaProyecto.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "AudioResource",
+            "fullManagedTypeName": "UnityEngine.Audio.AudioResource",
+            "moduleName": "Audio",
+            "usedInScenes": [
+                "Assets/EscenaPruebaProyecto.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "SampleClip",
+            "fullManagedTypeName": "UnityEngine.Audio.AudioResource",
+            "moduleName": "Audio",
+            "usedInScenes": [
+                "Assets/EscenaPruebaProyecto.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "AudioBehaviour",
             "fullManagedTypeName": "UnityEngine.AudioBehaviour",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/Lab.unity"
+                "Assets/EscenaPruebaProyecto.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "AudioClip",
+            "fullManagedTypeName": "UnityEngine.AudioClip",
+            "moduleName": "Audio",
+            "usedInScenes": [
+                "Assets/EscenaPruebaProyecto.unity"
             ]
         },
         {
@@ -266,7 +336,7 @@
             "fullManagedTypeName": "UnityEngine.AudioListener",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/Lab.unity"
+                "Assets/EscenaPruebaProyecto.unity"
             ]
         },
         {
@@ -275,7 +345,7 @@
             "fullManagedTypeName": "UnityEngine.Behaviour",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Lab.unity"
+                "Assets/EscenaPruebaProyecto.unity"
             ]
         },
         {
@@ -284,7 +354,7 @@
             "fullManagedTypeName": "UnityEngine.Camera",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Lab.unity"
+                "Assets/EscenaPruebaProyecto.unity"
             ]
         },
         {
@@ -293,7 +363,7 @@
             "fullManagedTypeName": "UnityEngine.Canvas",
             "moduleName": "UI",
             "usedInScenes": [
-                "Assets/Lab.unity"
+                "Assets/EscenaPruebaProyecto.unity"
             ]
         },
         {
@@ -302,7 +372,7 @@
             "fullManagedTypeName": "UnityEngine.CanvasGroup",
             "moduleName": "UI",
             "usedInScenes": [
-                "Assets/Lab.unity"
+                "Assets/EscenaPruebaProyecto.unity"
             ]
         },
         {
@@ -311,7 +381,7 @@
             "fullManagedTypeName": "UnityEngine.CanvasRenderer",
             "moduleName": "UI",
             "usedInScenes": [
-                "Assets/Lab.unity"
+                "Assets/EscenaPruebaProyecto.unity"
             ]
         },
         {
@@ -320,7 +390,7 @@
             "fullManagedTypeName": "UnityEngine.Collider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/Lab.unity"
+                "Assets/EscenaPruebaProyecto.unity"
             ]
         },
         {
@@ -329,7 +399,7 @@
             "fullManagedTypeName": "UnityEngine.Component",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Lab.unity"
+                "Assets/EscenaPruebaProyecto.unity"
             ]
         },
         {
@@ -338,7 +408,7 @@
             "fullManagedTypeName": "UnityEngine.Cubemap",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Lab.unity"
+                "Assets/EscenaPruebaProyecto.unity"
             ]
         },
         {
@@ -356,12 +426,19 @@
             "usedInScenes": []
         },
         {
+            "managedAssemblyName": "UnityEngine.UI.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.EventSystems.PhysicsRaycaster",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "Font",
             "fullManagedTypeName": "UnityEngine.Font",
             "moduleName": "TextRendering",
             "usedInScenes": [
-                "Assets/Lab.unity"
+                "Assets/EscenaPruebaProyecto.unity"
             ]
         },
         {
@@ -370,7 +447,7 @@
             "fullManagedTypeName": "UnityEngine.GameObject",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Lab.unity"
+                "Assets/EscenaPruebaProyecto.unity"
             ]
         },
         {
@@ -421,7 +498,7 @@
             "fullManagedTypeName": "UnityEngine.Light",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Lab.unity"
+                "Assets/EscenaPruebaProyecto.unity"
             ]
         },
         {
@@ -430,7 +507,7 @@
             "fullManagedTypeName": "UnityEngine.LightmapSettings",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Lab.unity"
+                "Assets/EscenaPruebaProyecto.unity"
             ]
         },
         {
@@ -439,7 +516,7 @@
             "fullManagedTypeName": "UnityEngine.Material",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Lab.unity"
+                "Assets/EscenaPruebaProyecto.unity"
             ]
         },
         {
@@ -448,7 +525,7 @@
             "fullManagedTypeName": "UnityEngine.Mesh",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Lab.unity"
+                "Assets/EscenaPruebaProyecto.unity"
             ]
         },
         {
@@ -457,7 +534,7 @@
             "fullManagedTypeName": "UnityEngine.MeshCollider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/Lab.unity"
+                "Assets/EscenaPruebaProyecto.unity"
             ]
         },
         {
@@ -466,7 +543,7 @@
             "fullManagedTypeName": "UnityEngine.MeshFilter",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Lab.unity"
+                "Assets/EscenaPruebaProyecto.unity"
             ]
         },
         {
@@ -475,7 +552,7 @@
             "fullManagedTypeName": "UnityEngine.MeshRenderer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Lab.unity"
+                "Assets/EscenaPruebaProyecto.unity"
             ]
         },
         {
@@ -484,7 +561,16 @@
             "fullManagedTypeName": "UnityEngine.MonoBehaviour",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Lab.unity"
+                "Assets/EscenaPruebaProyecto.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Motion",
+            "fullManagedTypeName": "UnityEngine.Motion",
+            "moduleName": "Animation",
+            "usedInScenes": [
+                "Assets/EscenaPruebaProyecto.unity"
             ]
         },
         {
@@ -493,7 +579,7 @@
             "fullManagedTypeName": "UnityEngine.Object",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Lab.unity"
+                "Assets/EscenaPruebaProyecto.unity"
             ]
         },
         {
@@ -509,7 +595,7 @@
             "fullManagedTypeName": "UnityEngine.RectTransform",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Lab.unity"
+                "Assets/EscenaPruebaProyecto.unity"
             ]
         },
         {
@@ -518,7 +604,7 @@
             "fullManagedTypeName": "UnityEngine.Renderer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Lab.unity"
+                "Assets/EscenaPruebaProyecto.unity"
             ]
         },
         {
@@ -534,7 +620,16 @@
             "fullManagedTypeName": "UnityEngine.RenderSettings",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Lab.unity"
+                "Assets/EscenaPruebaProyecto.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "RuntimeAnimatorController",
+            "fullManagedTypeName": "UnityEngine.RuntimeAnimatorController",
+            "moduleName": "Animation",
+            "usedInScenes": [
+                "Assets/EscenaPruebaProyecto.unity"
             ]
         },
         {
@@ -543,7 +638,7 @@
             "fullManagedTypeName": "UnityEngine.Shader",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Lab.unity"
+                "Assets/EscenaPruebaProyecto.unity"
             ]
         },
         {
@@ -552,7 +647,7 @@
             "fullManagedTypeName": "UnityEngine.Sprite",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Lab.unity"
+                "Assets/EscenaPruebaProyecto.unity"
             ]
         },
         {
@@ -561,7 +656,7 @@
             "fullManagedTypeName": "UnityEngine.TextAsset",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Lab.unity"
+                "Assets/EscenaPruebaProyecto.unity"
             ]
         },
         {
@@ -570,7 +665,7 @@
             "fullManagedTypeName": "UnityEngine.Texture",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Lab.unity"
+                "Assets/EscenaPruebaProyecto.unity"
             ]
         },
         {
@@ -579,7 +674,7 @@
             "fullManagedTypeName": "UnityEngine.Texture2D",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Lab.unity"
+                "Assets/EscenaPruebaProyecto.unity"
             ]
         },
         {
@@ -588,7 +683,7 @@
             "fullManagedTypeName": "UnityEngine.Transform",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Lab.unity"
+                "Assets/EscenaPruebaProyecto.unity"
             ]
         },
         {
@@ -669,9 +764,30 @@
             "usedInScenes": []
         },
         {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "VentanaEmergente",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "Vuforia.Unity.Engine.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Vuforia.AnchorBehaviour",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Vuforia.Unity.Engine.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Vuforia.AnchorInputListenerBehaviour",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Vuforia.Unity.Engine.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Vuforia.AnchorPreview",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -685,14 +801,7 @@
         {
             "managedAssemblyName": "Vuforia.Unity.Engine.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "Vuforia.ImageTargetBehaviour",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Vuforia.Unity.Engine.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Vuforia.ImageTargetPreview",
+            "fullManagedTypeName": "Vuforia.ContentPositioningBehaviour",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -707,6 +816,13 @@
             "managedAssemblyName": "Vuforia.Unity.Engine.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Vuforia.Internal.AreaTargetCaptureOverlayCanvas",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Vuforia.Unity.Engine.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Vuforia.PlaneFinderBehaviour",
             "moduleName": "",
             "usedInScenes": []
         },

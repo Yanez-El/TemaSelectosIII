@@ -1,19 +1,4 @@
 <linker>
-	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
-		<type fullname="ControlVentanas">
-			<method name="mostrarPopUp"/>
-			<method name="ocultarPopUp"/>
-		</type>
-		<type fullname="Mover">
-			<method name="moveToNextMarker"/>
-			<method name="moveToNextMarker"/>
-			<method name="moveToNextMarker"/>
-			<method name="moveToNextMarker"/>
-			<method name="moveToNextMarker"/>
-			<method name="moveToNextMarker"/>
-			<method name="moveToNextMarker"/>
-		</type>
-	</assembly>
 	<assembly fullname="UnityEngine.CoreModule" ignoreIfMissing="1">
 		<type fullname="UnityEngine.GameObject">
 			<method name="SetActive"/>
@@ -42,6 +27,9 @@
 			<method name="StartCapture"/>
 			<method name="StopCapture"/>
 			<method name="StopCapture"/>
+		</type>
+		<type fullname="Vuforia.ContentPositioningBehaviour">
+			<method name="PositionContentAtPlaneAnchor"/>
 		</type>
 		<type fullname="Vuforia.Internal.AreaTargetCaptureInfoPopup">
 			<method name="OnCaptureCreationError"/>
@@ -78,6 +66,9 @@
 			<method name="OnTargetNameChanged"/>
 			<method name="OnTargetNameSet"/>
 			<method name="OnTargetNameSet"/>
+		</type>
+		<type fullname="Vuforia.PlaneFinderBehaviour">
+			<method name="PerformHitTest"/>
 		</type>
 		<type fullname="Vuforia.SessionRecorderBehaviour">
 			<method name="ShareRecording"/>

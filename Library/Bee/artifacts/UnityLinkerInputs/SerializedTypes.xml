@@ -50,6 +50,7 @@
 		<type fullname="UnityEngine.UI.SpriteState" preserve="nothing" serialized="true"/>
 	</assembly>
 	<assembly fullname="Vuforia.Unity.Engine">
+		<type fullname="Vuforia.AnchorInputListenerBehaviour/InputReceivedEvent" preserve="nothing" serialized="true"/>
 		<type fullname="Vuforia.AreaTargetCaptureBehaviour/CaptureCreationErrorEvent" preserve="nothing" serialized="true"/>
 		<type fullname="Vuforia.AreaTargetCaptureBehaviour/CaptureStartedEvent" preserve="nothing" serialized="true"/>
 		<type fullname="Vuforia.AreaTargetCaptureBehaviour/CaptureStatusInfoUpdated" preserve="nothing" serialized="true"/>
@@ -59,6 +60,8 @@
 		<type fullname="Vuforia.AreaTargetCaptureBehaviour/GenerationProgressEvent" preserve="nothing" serialized="true"/>
 		<type fullname="Vuforia.AreaTargetCaptureBehaviour/GenerationRemainingTimeEvent" preserve="nothing" serialized="true"/>
 		<type fullname="Vuforia.AreaTargetCaptureBehaviour/GenerationStartedEvent" preserve="nothing" serialized="true"/>
+		<type fullname="Vuforia.ContentPlacedEvent" preserve="nothing" serialized="true"/>
+		<type fullname="Vuforia.HitTestEvent" preserve="nothing" serialized="true"/>
 		<type fullname="Vuforia.SessionRecorderBehaviour/CleanStorageEvent" preserve="nothing" serialized="true"/>
 		<type fullname="Vuforia.SessionRecorderBehaviour/RecordingStartedEvent" preserve="nothing" serialized="true"/>
 		<type fullname="Vuforia.SessionRecorderBehaviour/RecordingStoppedEvent" preserve="nothing" serialized="true"/>

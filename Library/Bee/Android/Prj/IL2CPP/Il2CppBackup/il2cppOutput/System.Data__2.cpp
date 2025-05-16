@@ -4307,7 +4307,7 @@ IL_000f:
 		Type_t* L_3 = ___0_type;
 		NullCheck(L_3);
 		bool L_4;
-		L_4 = VirtualFuncInvoker0< bool >::Invoke(69, L_3);
+		L_4 = VirtualFuncInvoker0< bool >::Invoke(71, L_3);
 		if (!L_4)
 		{
 			goto IL_0019;
@@ -4332,7 +4332,7 @@ IL_0019:
 		Type_t* L_7 = ___0_type;
 		NullCheck(L_7);
 		Type_t* L_8;
-		L_8 = VirtualFuncInvoker0< Type_t* >::Invoke(46, L_7);
+		L_8 = VirtualFuncInvoker0< Type_t* >::Invoke(47, L_7);
 		___0_type = L_8;
 		goto IL_0000;
 	}
@@ -4362,7 +4362,7 @@ IL_002b:
 		Type_t* L_13 = ___0_type;
 		NullCheck(L_13);
 		Type_t* L_14;
-		L_14 = VirtualFuncInvoker0< Type_t* >::Invoke(48, L_13);
+		L_14 = VirtualFuncInvoker0< Type_t* >::Invoke(49, L_13);
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_15 = { reinterpret_cast<intptr_t> (List_1_tA989C33995B015444AE843B573C94F683039E41F_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_16;
@@ -4378,7 +4378,7 @@ IL_002b:
 		Type_t* L_18 = ___0_type;
 		NullCheck(L_18);
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_19;
-		L_19 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(50, L_18);
+		L_19 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(51, L_18);
 		NullCheck(L_19);
 		int32_t L_20 = 0;
 		Type_t* L_21 = (L_19)->GetAt(static_cast<il2cpp_array_size_t>(L_20));
@@ -17050,7 +17050,7 @@ IL_00da:
 		PropertyCollection_t531D3CA9714C3D7818C1B1C139A9C4F04B73EE7C* L_59 = __this->____extendedProperties;
 		NullCheck(L_59);
 		RuntimeObject* L_60;
-		L_60 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(35, L_59);
+		L_60 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(37, L_59);
 		NullCheck(L_60);
 		RuntimeObject* L_61;
 		L_61 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0, IEnumerable_t6331596D5DD37C462B1B8D49CF6B319B00AB7131_il2cpp_TypeInfo_var, L_60);
@@ -17105,9 +17105,9 @@ IL_0129_1:
 				RuntimeObject* L_71 = V_9;
 				NullCheck(L_70);
 				RuntimeObject* L_72;
-				L_72 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(28, L_70, L_71);
+				L_72 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(29, L_70, L_71);
 				NullCheck(L_68);
-				VirtualActionInvoker2< RuntimeObject*, RuntimeObject* >::Invoke(29, L_68, L_69, L_72);
+				VirtualActionInvoker2< RuntimeObject*, RuntimeObject* >::Invoke(30, L_68, L_69, L_72);
 			}
 
 IL_014d_1:

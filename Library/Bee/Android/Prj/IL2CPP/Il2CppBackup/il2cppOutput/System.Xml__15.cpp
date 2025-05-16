@@ -18751,7 +18751,7 @@ IL_007b:
 		Type_t* L_29 = ___1_destinationType;
 		NullCheck(L_29);
 		Type_t* L_30;
-		L_30 = VirtualFuncInvoker0< Type_t* >::Invoke(46, L_29);
+		L_30 = VirtualFuncInvoker0< Type_t* >::Invoke(47, L_29);
 		V_1 = L_30;
 		Type_t* L_31 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(XmlBaseConverter_tB935E170055CCB49F182D426AC09B2D4C0DA919D_il2cpp_TypeInfo_var);
@@ -20490,7 +20490,7 @@ IL_0125:
 	{
 		String_t* L_59 = ___3_value;
 		NullCheck(G_B16_1);
-		VirtualActionInvoker2< RuntimeObject*, RuntimeObject* >::Invoke(22, G_B16_1, G_B16_0, L_59);
+		VirtualActionInvoker2< RuntimeObject*, RuntimeObject* >::Invoke(23, G_B16_1, G_B16_0, L_59);
 		return;
 	}
 
@@ -20587,7 +20587,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XsdBuilder_StartChildren_mFFB54ACD171F51
 		Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D* L_2 = __this->___namespaces;
 		NullCheck(L_2);
 		int32_t L_3;
-		L_3 = VirtualFuncInvoker0< int32_t >::Invoke(39, L_2);
+		L_3 = VirtualFuncInvoker0< int32_t >::Invoke(41, L_2);
 		if ((((int32_t)L_3) <= ((int32_t)0)))
 		{
 			goto IL_003b;

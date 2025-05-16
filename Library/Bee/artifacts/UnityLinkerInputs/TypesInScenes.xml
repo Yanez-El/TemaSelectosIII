@@ -1,7 +1,8 @@
 <linker>
 	<assembly fullname="Assembly-CSharp">
-		<type fullname="ControlVentanas" preserve="nothing"/>
-		<type fullname="Mover" preserve="nothing"/>
+		<type fullname="DesactivarPlanoPorToque" preserve="nothing"/>
+		<type fullname="SonidoYAnimacionOrganelo" preserve="nothing"/>
+		<type fullname="VentanaEmergente" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.InputSystem">
 		<type fullname="UnityEngine.InputSystem.InputActionAsset" preserve="nothing"/>
@@ -18,7 +19,11 @@
 		<type fullname="TMPro.TMP_SpriteAsset" preserve="nothing"/>
 		<type fullname="TMPro.TMP_StyleSheet" preserve="nothing"/>
 	</assembly>
+	<assembly fullname="Unity.VisualScripting.Flow">
+		<type fullname="Unity.VisualScripting.ScriptGraphAsset" preserve="nothing"/>
+	</assembly>
 	<assembly fullname="UnityEngine">
+		<type fullname="UnityEditor.Animations.AnimatorController" preserve="nothing"/>
 		<type fullname="UnityEditor.AudioManager" preserve="nothing"/>
 		<type fullname="UnityEditor.InputManager" preserve="nothing"/>
 		<type fullname="UnityEditor.MonoManager" preserve="nothing"/>
@@ -29,7 +34,12 @@
 		<type fullname="UnityEditor.TimeManager" preserve="nothing"/>
 		<type fullname="UnityEditor.UnityConnectSettings" preserve="nothing"/>
 		<type fullname="UnityEditor.VFXManager" preserve="nothing"/>
+		<type fullname="UnityEngine.Animation" preserve="nothing"/>
+		<type fullname="UnityEngine.AnimationClip" preserve="nothing"/>
+		<type fullname="UnityEngine.Animator" preserve="nothing"/>
+		<type fullname="UnityEngine.Audio.AudioResource" preserve="nothing"/>
 		<type fullname="UnityEngine.AudioBehaviour" preserve="nothing"/>
+		<type fullname="UnityEngine.AudioClip" preserve="nothing"/>
 		<type fullname="UnityEngine.AudioListener" preserve="nothing"/>
 		<type fullname="UnityEngine.Behaviour" preserve="nothing"/>
 		<type fullname="UnityEngine.Camera" preserve="nothing"/>
@@ -49,12 +59,14 @@
 		<type fullname="UnityEngine.MeshFilter" preserve="nothing"/>
 		<type fullname="UnityEngine.MeshRenderer" preserve="nothing"/>
 		<type fullname="UnityEngine.MonoBehaviour" preserve="nothing"/>
+		<type fullname="UnityEngine.Motion" preserve="nothing"/>
 		<type fullname="UnityEngine.Object" preserve="nothing"/>
 		<type fullname="UnityEngine.QualitySettings" preserve="nothing"/>
 		<type fullname="UnityEngine.RectTransform" preserve="nothing"/>
 		<type fullname="UnityEngine.Renderer" preserve="nothing"/>
 		<type fullname="UnityEngine.Rendering.GraphicsSettings" preserve="nothing"/>
 		<type fullname="UnityEngine.RenderSettings" preserve="nothing"/>
+		<type fullname="UnityEngine.RuntimeAnimatorController" preserve="nothing"/>
 		<type fullname="UnityEngine.Shader" preserve="nothing"/>
 		<type fullname="UnityEngine.Sprite" preserve="nothing"/>
 		<type fullname="UnityEngine.TextAsset" preserve="nothing"/>
@@ -65,6 +77,7 @@
 	<assembly fullname="UnityEngine.UI">
 		<type fullname="UnityEngine.EventSystems.EventSystem" preserve="nothing"/>
 		<type fullname="UnityEngine.EventSystems.EventTrigger" preserve="nothing"/>
+		<type fullname="UnityEngine.EventSystems.PhysicsRaycaster" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.Button" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.CanvasScaler" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.ContentSizeFitter" preserve="nothing"/>
@@ -78,11 +91,13 @@
 	</assembly>
 	<assembly fullname="Vuforia.Unity.Engine">
 		<type fullname="Vuforia.AnchorBehaviour" preserve="nothing"/>
+		<type fullname="Vuforia.AnchorInputListenerBehaviour" preserve="nothing"/>
+		<type fullname="Vuforia.AnchorPreview" preserve="nothing"/>
 		<type fullname="Vuforia.AreaTargetCaptureBehaviour" preserve="nothing"/>
-		<type fullname="Vuforia.ImageTargetBehaviour" preserve="nothing"/>
-		<type fullname="Vuforia.ImageTargetPreview" preserve="nothing"/>
+		<type fullname="Vuforia.ContentPositioningBehaviour" preserve="nothing"/>
 		<type fullname="Vuforia.Internal.AreaTargetCaptureInfoPopup" preserve="nothing"/>
 		<type fullname="Vuforia.Internal.AreaTargetCaptureOverlayCanvas" preserve="nothing"/>
+		<type fullname="Vuforia.PlaneFinderBehaviour" preserve="nothing"/>
 		<type fullname="Vuforia.RuntimeMeshRenderingBehaviour" preserve="nothing"/>
 		<type fullname="Vuforia.ScaleToValidationAreaSize" preserve="nothing"/>
 		<type fullname="Vuforia.SessionRecorderBehaviour" preserve="nothing"/>
