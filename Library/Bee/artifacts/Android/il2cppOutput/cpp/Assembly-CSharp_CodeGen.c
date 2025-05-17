@@ -7,11 +7,6 @@
 
 
 
-extern void ControlVentanas_Start_mD18357FC096463FFBACE0507269B625A49410AF7 (void);
-extern void ControlVentanas_Update_m9D7C9D2F9CF98F53C61AF48AA6961849C1DA8B1A (void);
-extern void ControlVentanas_mostrarPopUp_mDA9C78A6A459DF32298B448768B9611167253432 (void);
-extern void ControlVentanas_ocultarPopUp_mC051F49061EBA831274F53ACFB530BAFE984B9A0 (void);
-extern void ControlVentanas__ctor_mD1489334449BC14C9289F4AE6F5160B8AA86D682 (void);
 extern void DesactivarPlanoPorToque_Update_m93B14FDCDE150927DB5B076ED26AFBF0D04D50D9 (void);
 extern void DesactivarPlanoPorToque__ctor_m6BDB231440BA8A35E9F85082213356BA46C2E84B (void);
 extern void SonidoYAnimacionOrganelo_Start_mF9269209F6C3B3494FE9C51679CBAFF6C32FD29F (void);
@@ -602,9 +597,6 @@ extern void AotStubs_UnityEngine_Video_VideoPlayer_op_Inequality_m359B71F6490D3C
 extern void AotStubs_UnityEngine_WindZone_op_Implicit_mCC53C6D847CE88E552644C5B2EA8E14FDDD99C50 (void);
 extern void AotStubs_UnityEngine_WindZone_op_Equality_mB2B2D4CDE59D646AE4354EC1945859F1E3F67900 (void);
 extern void AotStubs_UnityEngine_WindZone_op_Inequality_mF027F8D299E0D883B268F944A8C54D3A7DC23221 (void);
-extern void AotStubs_ControlVentanas_op_Implicit_m2379A553D6B8096EBC36462C3FA60A1A6F861492 (void);
-extern void AotStubs_ControlVentanas_op_Equality_m4D88A02FC0C6E651A9726D01AD4FE1E85D4B99A1 (void);
-extern void AotStubs_ControlVentanas_op_Inequality_m2892671C02D30DD5206907E0F274541597FD54E4 (void);
 extern void AotStubs_DesactivarPlanoPorToque_op_Implicit_mD48218006F85A719D0BA1D24A4797824CA35D115 (void);
 extern void AotStubs_DesactivarPlanoPorToque_op_Equality_m0F7FECD4BDF310048944B8F330741B35C9306475 (void);
 extern void AotStubs_DesactivarPlanoPorToque_op_Inequality_mC2728F8B51815FF6D70582C985861B4992B3D04F (void);
@@ -874,13 +866,8 @@ extern void AotStubs_UnityEngine_EventSystems_PhysicsRaycaster_op_Implicit_m59AD
 extern void AotStubs_UnityEngine_EventSystems_PhysicsRaycaster_op_Equality_m30C5C7702A36F2BAEEF9EF82E6F8425500AFAFB9 (void);
 extern void AotStubs_UnityEngine_EventSystems_PhysicsRaycaster_op_Inequality_m5CF222965746AAF9CE984589B2B487C9CC9B0F03 (void);
 extern void AotStubs__ctor_mD8E1D4EB5BE3B72AE9FD29C595BB7C9A05734676 (void);
-static Il2CppMethodPointer s_methodPointers[867] = 
+static Il2CppMethodPointer s_methodPointers[859] = 
 {
-	ControlVentanas_Start_mD18357FC096463FFBACE0507269B625A49410AF7,
-	ControlVentanas_Update_m9D7C9D2F9CF98F53C61AF48AA6961849C1DA8B1A,
-	ControlVentanas_mostrarPopUp_mDA9C78A6A459DF32298B448768B9611167253432,
-	ControlVentanas_ocultarPopUp_mC051F49061EBA831274F53ACFB530BAFE984B9A0,
-	ControlVentanas__ctor_mD1489334449BC14C9289F4AE6F5160B8AA86D682,
 	DesactivarPlanoPorToque_Update_m93B14FDCDE150927DB5B076ED26AFBF0D04D50D9,
 	DesactivarPlanoPorToque__ctor_m6BDB231440BA8A35E9F85082213356BA46C2E84B,
 	SonidoYAnimacionOrganelo_Start_mF9269209F6C3B3494FE9C51679CBAFF6C32FD29F,
@@ -1471,9 +1458,6 @@ static Il2CppMethodPointer s_methodPointers[867] =
 	AotStubs_UnityEngine_WindZone_op_Implicit_mCC53C6D847CE88E552644C5B2EA8E14FDDD99C50,
 	AotStubs_UnityEngine_WindZone_op_Equality_mB2B2D4CDE59D646AE4354EC1945859F1E3F67900,
 	AotStubs_UnityEngine_WindZone_op_Inequality_mF027F8D299E0D883B268F944A8C54D3A7DC23221,
-	AotStubs_ControlVentanas_op_Implicit_m2379A553D6B8096EBC36462C3FA60A1A6F861492,
-	AotStubs_ControlVentanas_op_Equality_m4D88A02FC0C6E651A9726D01AD4FE1E85D4B99A1,
-	AotStubs_ControlVentanas_op_Inequality_m2892671C02D30DD5206907E0F274541597FD54E4,
 	AotStubs_DesactivarPlanoPorToque_op_Implicit_mD48218006F85A719D0BA1D24A4797824CA35D115,
 	AotStubs_DesactivarPlanoPorToque_op_Equality_m0F7FECD4BDF310048944B8F330741B35C9306475,
 	AotStubs_DesactivarPlanoPorToque_op_Inequality_mC2728F8B51815FF6D70582C985861B4992B3D04F,
@@ -1744,13 +1728,8 @@ static Il2CppMethodPointer s_methodPointers[867] =
 	AotStubs_UnityEngine_EventSystems_PhysicsRaycaster_op_Inequality_m5CF222965746AAF9CE984589B2B487C9CC9B0F03,
 	AotStubs__ctor_mD8E1D4EB5BE3B72AE9FD29C595BB7C9A05734676,
 };
-static const int32_t s_InvokerIndices[867] = 
+static const int32_t s_InvokerIndices[859] = 
 {
-	10037,
-	10037,
-	10037,
-	10037,
-	10037,
 	10037,
 	10037,
 	10037,
@@ -2609,16 +2588,13 @@ static const int32_t s_InvokerIndices[867] =
 	14356,
 	14356,
 	14356,
-	14356,
-	14356,
-	14356,
 	10037,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	867,
+	859,
 	s_methodPointers,
 	0,
 	NULL,

@@ -373,63 +373,71 @@ ScriptsOnlyBuild:
     - Class: 111
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 26994}
+      Script: {instanceID: 26990}
     - Class: 114
-      Script: {instanceID: 27246}
+      Script: {instanceID: 27242}
     - Class: 114
-      Script: {instanceID: 27556}
+      Script: {instanceID: 27552}
     - Class: 114
-      Script: {instanceID: 27908}
+      Script: {instanceID: 27902}
     - Class: 114
-      Script: {instanceID: 28220}
+      Script: {instanceID: 28212}
     - Class: 114
-      Script: {instanceID: 29040}
+      Script: {instanceID: 29032}
     - Class: 114
-      Script: {instanceID: 29346}
+      Script: {instanceID: 29338}
     - Class: 114
-      Script: {instanceID: 29636}
+      Script: {instanceID: 29628}
     - Class: 114
-      Script: {instanceID: 30206}
+      Script: {instanceID: 30196}
     - Class: 114
-      Script: {instanceID: 30528}
+      Script: {instanceID: 30518}
     - Class: 114
-      Script: {instanceID: 30674}
+      Script: {instanceID: 30664}
     - Class: 114
-      Script: {instanceID: 30752}
+      Script: {instanceID: 30742}
     - Class: 114
-      Script: {instanceID: 31068}
+      Script: {instanceID: 31058}
     - Class: 114
-      Script: {instanceID: 32112}
+      Script: {instanceID: 32102}
     - Class: 114
-      Script: {instanceID: 32340}
+      Script: {instanceID: 32330}
     - Class: 114
-      Script: {instanceID: 32768}
+      Script: {instanceID: 32758}
     - Class: 114
-      Script: {instanceID: 32780}
+      Script: {instanceID: 32770}
     - Class: 114
-      Script: {instanceID: 32934}
+      Script: {instanceID: 32924}
     - Class: 114
-      Script: {instanceID: 33086}
+      Script: {instanceID: 33076}
     - Class: 114
-      Script: {instanceID: 33246}
+      Script: {instanceID: 33236}
     - Class: 114
-      Script: {instanceID: 33594}
+      Script: {instanceID: 33584}
     - Class: 114
-      Script: {instanceID: 34254}
+      Script: {instanceID: 34244}
     - Class: 114
-      Script: {instanceID: 34280}
+      Script: {instanceID: 34270}
     - Class: 114
-      Script: {instanceID: 34312}
+      Script: {instanceID: 34302}
     - Class: 114
-      Script: {instanceID: 34356}
+      Script: {instanceID: 34346}
     - Class: 114
-      Script: {instanceID: 35534}
+      Script: {instanceID: 35524}
     - Class: 114
-      Script: {instanceID: 35562}
+      Script: {instanceID: 35552}
     - Class: 114
-      Script: {instanceID: 35912}
+      Script: {instanceID: 35902}
     - Class: 114
-      Script: {instanceID: 35954}
+      Script: {instanceID: 35944}
+    - Class: 114
+      Script: {instanceID: 35948}
+    - Class: 114
+      Script: {instanceID: 35950}
+    - Class: 114
+      Script: {instanceID: 35952}
+    - Class: 114
+      Script: {instanceID: 35956}
     - Class: 114
       Script: {instanceID: 35958}
     - Class: 114
@@ -439,27 +447,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 35966}
     - Class: 114
-      Script: {instanceID: 35968}
+      Script: {instanceID: 36012}
     - Class: 114
-      Script: {instanceID: 35970}
-    - Class: 114
-      Script: {instanceID: 35972}
-    - Class: 114
-      Script: {instanceID: 35976}
+      Script: {instanceID: 36020}
     - Class: 114
       Script: {instanceID: 36022}
     - Class: 114
-      Script: {instanceID: 36030}
+      Script: {instanceID: 36024}
     - Class: 114
-      Script: {instanceID: 36032}
+      Script: {instanceID: 36026}
     - Class: 114
-      Script: {instanceID: 36034}
+      Script: {instanceID: 36038}
     - Class: 114
-      Script: {instanceID: 36036}
-    - Class: 114
-      Script: {instanceID: 36048}
-    - Class: 114
-      Script: {instanceID: 36050}
+      Script: {instanceID: 36040}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -611,12 +611,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.UI
     className: InputSystemUIInputModule
-  - hash:
-      serializedVersion: 2
-      Hash: a78d48ad061b0ba026e89b65f8fb93cb
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: ControlVentanas
   - hash:
       serializedVersion: 2
       Hash: 568292fb7ea6c4f7a667e5ff76bc7e85
@@ -1988,4 +1982,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/EscenaPruebaProyecto.unity
-  playerPath: "C:/Users/yazga/Desktop/Yuniti/Clase_Vuforia/ProyectoFinal_Fernando_Ya\xF1ez.apk"
+  playerPath: "C:/Users/yazga/Documents/GitHub/TemaSelectosIII/APK/ProyectoFinal_Fernando_Ya\xF1ez.apk"
